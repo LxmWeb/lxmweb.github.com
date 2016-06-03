@@ -4,64 +4,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
-    <title>我</title>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-    <link href="me.css" rel="stylesheet" type="text/css"/> 
-
-    <script src="jquery-1.12.2.js"></script>
-    <script src="bootstrap/js/bootstrap.js"></script>
-    <script src="doctor.js"></script>  
+    <title>心理家</title>
+    <style type="text/css">
+       #head{
+          text-align: center;
+       }
+       #big-title{
+          font: 40px "微软雅黑";
+          text-align: center;
+       }
+    </style>
    </head>
    <body>
-   	 <div class="container-fluid">
-       <!-- 头像，姓名 -->
-       <div class="row me-head">
-          <div class="col-xs-1"></div>
-          <div class="col-xs-3 me-head-pic"><img src="1.jpg" id="head-portrait"/></div>
-          <!-- <div class="col-xs-"></div> -->
-          <div class="col-xs-7 me-name">XXX<p id="signature">"你若安好,就是晴天"</p></div>
-          <div class="col-xs-1 head-font"><i class="fa fa-cog fa-lg"></i></div>
-       </div>
-       <!-- 统计栏 -->
-       <div class="row static">
-          <div class="col-xs-3">
-            <p class="static-send">0</p>
-            <p>推送</p>
-          </div>
-          <div class="col-xs-3">
-            <p class="static-patient">20</p>
-            <p>患者</p>
-          </div>
-          <div class="col-xs-3">
-            <p class="static-attention">5</p>
-            <p>已关注</p>
-          </div>
-          <div class="col-xs-3">
-            <p class="static-cure">0</p>
-            <p>已治疗</p>
-          </div>
-        </div>
-        <!-- 功能 -->
-       <div class="row selfunction">
-         <div class="col-xs-2 selfunction-front"><div class="selfunction-front-font"><i class="fa fa-eye"></i></div></div>
-         <div class="col-xs-8 selfunction-name">重要患者</div>
-         <div class="col-xs-2 selfunction-right"><i class="fa fa-angle-right fa-lg"></i></div>
-       </div>
-       <div class="row selfunction">
-         <div class="col-xs-2 selfunction-front"><div class="selfunction-front-font"><i class="fa fa-commenting-o"></i></div></div>
-         <div class="col-xs-8 selfunction-name">患者意见</div>
-         <div class="col-xs-2 selfunction-right"><i class="fa fa-angle-right fa-lg"></i></div>
-       </div>
-       <div class="row selfunction par-self">
-         <div class="col-xs-2 selfunction-front"><div class="selfunction-front-font"><i class="fa fa-file"></i></div></div>
-         <div class="col-xs-8 selfunction-name">我的草稿</div>
-         <div class="col-xs-2 selfunction-right"><i class="fa fa-angle-right fa-lg"></i></div>
-       </div>
-       <div class="row selfunction">
-         <div class="col-xs-2 selfunction-front"><div class="selfunction-front-font"><i class="fa fa-clock-o fa-lg"></i></div></div>
-         <div class="col-xs-8 selfunction-name">最近浏览</div>
-         <div class="col-xs-2 selfunction-right"><i class="fa fa-angle-right fa-lg"></i></div>
-       </div>
-   	 </div>
+      <div id="head">
+        <p id="big-title">心理家</p>
+        <a href="doc/doctor.html" target="_blank"><input type="button" value="心理家医生版"/></a>
+        <a href="pat/patient.html" target="_blank"><input type="button" value="心理家患者版"/></a>
+      </div>
    </body>
+</html>
