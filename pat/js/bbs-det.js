@@ -1,0 +1,50 @@
+$(document).ready(function(){
+	$(".bbs-function").hide();
+	$(".bbs-refer").hide();
+	$(".bbs-success").hide();
+	$(".bbs-add").hide();
+	$(".bbs-back").click(function(){
+		window.location='mysite.html';
+	});
+	$(".fa-angle-down").click(function(){
+		$(".bbs-refer").hide();
+		$(".bbs-function").toggle();
+	});
+	$(".bbs-ellipsis").click(function(){
+		$(".bbs-function").hide();
+		$(".bbs-refer").toggle();
+	});
+	$(".bbs-function .row .col-xs-4:eq(0)").click(function(){
+		$(".bbs-common").hide();
+		$(".bbs-doctor").hide();
+		$(".bbs-louzhu").show();
+		$(".bbs-function").hide();
+		$(".bbs-title-txt").html("只看楼主");
+	});
+	$(".bbs-function .row .col-xs-4:eq(1)").click(function(){
+		$(".bbs-common").hide();
+		$(".bbs-doctor").show();
+		$(".bbs-louzhu").hide();
+		$(".bbs-function").hide();
+		$(".bbs-title-txt").html("只看医生");
+	});
+	$(".bbs-function .row .col-xs-4:eq(2)").click(function(){
+		$(".bbs-common").show();
+		$(".bbs-doctor").show();
+		$(".bbs-louzhu").show();
+		$(".bbs-function").hide();
+		$(".bbs-title-txt").html("全部帖子");
+	});
+	$(".bbs-myanswer button").click(function(){
+		$(".bbs-success").show();
+    	setTimeout(function(){
+        	$(".bbs-success").hide();
+        },800);
+	});
+	$(".bbs-good").click(function(){
+		if($(this).attr("src")=="image/赞.svg")
+			$(this).attr("src","image/赞(2).svg");
+		else
+			$(this).attr("src","image/赞.svg");
+	});
+});
