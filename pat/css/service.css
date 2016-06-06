@@ -1,0 +1,182 @@
+.col-title {
+	width: 100%;
+	background: #4876FF;
+	z-index: 50;
+	position: fixed;
+	top: 0;
+}
+.header {
+	padding: 5% 0 0 10%;
+	font-size: 23px;
+	color: white;
+	text-align: center;
+}
+.message-sty {
+	width: 25px;
+	margin: 15px 0;
+}
+.col-menu {
+	margin-top: 14%;
+	padding: 3% 4%;
+}
+.row-menu-p {
+	width: 40%;
+	height: 40%;
+	margin: 10% 20%;
+}
+.row-menu-t {
+	font-size: 13px;
+	margin: 5% 0;
+}
+.line {
+	height: 5px;
+	background: #EEEED1;
+	border: 1px solid #EEEED1;
+}
+.title {
+	margin-top: 3%;
+	border-bottom: 1px solid lightgray;
+	color: orange;
+	font-size: 22px;
+    font-weight: bold;
+}
+
+.search {
+/*	height: 50px;*/
+	padding: 3%;
+	color: gray;
+}
+.search-rec {
+	width: 96%;
+	margin: 2% 2% 0 2%;
+	background: lightgray;
+	border-radius: 5px;
+}
+.search-img {
+	width: 15px;
+}
+.knowledge {
+	padding: 3% 5%;
+}
+.knowledge-heading {
+   margin-bottom: 2%;
+   color: gray;
+   font-weight: bold;
+}
+.knowledge-content {
+  /* word-wrap: break-word;*/
+    overflow: hidden;
+    white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.all-knowledge-content {
+	word-wrap: break-word;
+}
+.problem {	}
+.passage-content {
+    overflow: hidden;
+    white-space: nowrap;
+	text-overflow: ellipsis;
+	
+}
+.smtitle {
+	margin-top: 3%;
+	font-size: 23px;
+	font-weight: bold;
+	display: inline-block;
+}
+.more-knowledge {
+    margin-top: 2%;
+    color: blue;
+	float: right;
+}
+.posting {
+	width: 100%;
+	padding: 0 5% 2% 5%;
+	border-bottom: 1px solid lightblue;
+}
+.in-posting {
+   padding:  0 5%;	
+   position: relative;
+}
+.answer {
+	margin-left: 80%;
+	font-size: 15px;
+	color: gray;
+	display: inline-block;
+}
+.good {
+	margin-left: 3%;
+	font-size: 15px;
+	color: gray;
+	display: inline-block;
+}
+.add {
+	color: orange;
+	position: absolute;
+	top: 65%;
+	left: 93%;
+}
+.show-all {
+	margin: 2% 1%;
+	color: gray;
+}
+.guide {
+	width: 100%;
+	border: 1px solid lightgray;
+	padding: 2% 1%;
+	background: white;
+	position: fixed;
+	bottom: 0;
+}
+.guide-current {
+	color: #4876FF;
+}
+.guide-name {
+   color: gray;
+}
+.last {
+	width: 100%;
+	height: 50px;
+}
+.answer-input {
+	width: 100%;
+	/*padding: 5% 0;*/
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin: 10% 0;
+	background-color: white;
+	border-top: 1px solid lightgray;
+	text-align: center;
+}
+.answer-input input{
+	width: 70%;
+	border: 0;
+	border-bottom: 1px gray solid;
+	margin:5% auto;
+	outline: none;/*取消focus后出现的边框*/
+}
+.answer-input span{
+	display: inline-block;
+    width: 15%;   
+    height: 70%;   
+    background: #c1c1c1; 
+    line-height: 200%;   
+    cursor: pointer;/*//鼠标形态的变化*/
+    text-align: center;   
+    border-radius: 5px; 
+    color: #fff;
+    margin-left: 5%;
+}
+.success {
+	width: 25%;
+	margin: 10% auto;
+	padding: 3%;
+	background: gray;
+	color: white;
+	border-radius: 5px;
+    position: fixed;
+    bottom: 40px;
+    left: 35%;
+}
