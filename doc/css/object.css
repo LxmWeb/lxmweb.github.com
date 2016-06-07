@@ -1,0 +1,35 @@
+.head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.head2{
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    left: 15;
+    top: 0;
+}
+.function{
+	font-size: 16px;
+	padding-top: 20px;
+}
+.font1-1{
+	padding-right: 0;
+	text-align: center;
+}
+.font1{
+    border-bottom: 1px solid #DCDCDC;
+    color: #1E90FF;
+    padding-bottom: 10px;
+    padding-top: 4px;
+}
+.font2,.font3{
+	border-bottom: 1px solid #DCDCDC;
+    padding-bottom: 10px;
+    font: 20px "微软雅黑";
+}
+.font2{
+	padding-left: 0;
+}

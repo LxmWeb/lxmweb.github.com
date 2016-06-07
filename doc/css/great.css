@@ -1,0 +1,139 @@
+.great-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+}
+.great-head2{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+	top: 0;
+	z-index: 100;
+	color: white;
+}
+.great-font-left{
+	text-align: right;
+}
+.great-font-down{
+    margin-left: 5px;
+}
+.great-head-stance{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.great-ctx-box{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 7px solid #DCDCDC;
+}
+.great-ctx-person-photo-box{
+	padding: 0;
+}
+.great-ctxperson-photo{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+.great-ctx-person{
+	padding-bottom: 10px;
+	font: 16px "微软雅黑";
+}
+.great-ctx-person-ctx-box{
+	padding: 5px 5px 0 5px; 
+}
+.great-ctx-person-name{
+	/*font-size: ;*/
+	margin: 0;
+}
+.great-ctx-response-box{
+	font: 16px "微软雅黑";
+	text-align: center;
+}
+.great-ctx-response{
+	padding: 5px 0 5px 0;
+	border: 1px solid #DCDCDC;
+	background-color: #eeecec;
+}
+.great-ctx-post-time{
+	font-size: 12px;
+	color: #DCDCDC;
+	margin: 0;
+}
+.great-ctx-person-comment{
+	font: 16px "微软雅黑";
+	padding-bottom: 10px;
+}
+.great-ctx-ctx{
+	background-color: #eeecec;
+	padding: 5px 0 5px 0;
+	height: 70px;
+	overflow: hidden;
+	font: 14px "微软雅黑";
+}
+.great-ctx-ctx-title{
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+.great-ctx-answer-none{
+	text-align: center;
+	font: 16px "微软雅黑";
+	position: fixed;
+	bottom: 150px;
+	color: white;
+}
+.great-ctx-answer-none-ctx{
+	padding: 5px;
+	background-color: #1E90FF;
+}
+.great-ctx-answer-succeed{
+	text-align: center;
+	font: 16px "微软雅黑";
+	position: fixed;
+	bottom: 150px;
+	color: white;
+}
+.great-ctx-answer-succeed-ctx{
+	padding: 5px;
+	background-color: #1E90FF;
+}
+.great-ctx-answer{
+	background-color: #DCDCDC;
+	font: 18px "微软雅黑";
+	position: fixed;
+	bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 70px;
+	z-index: 100;
+}
+.great-ctx-answer-instance{
+	background-color: #DCDCDC;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 70px;
+	/*position: absolute;
+	bottom: 0;*/
+}
+.great-ctx-answer-enter-text{
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+}
+.great-ctx-answer-enter-box{
+	padding-top: 5px;
+}
+.great-ctx-answer-enter{
+	background-color: #1E90FF;
+	padding: 5px 10px 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+}

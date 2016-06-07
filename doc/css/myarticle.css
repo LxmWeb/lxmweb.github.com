@@ -1,0 +1,120 @@
+.myarticle-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+}
+.myarticle-head2{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    top: 0;
+    font-size: 16px;
+    z-index: 100;
+    color: white;
+}
+.myarticle-head-stance{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.myarticle-type{
+	text-align: center;
+	border-bottom: 1px solid #DCDCDC;
+	font: 18px "微软雅黑";
+}
+.myarticle-type1-title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #f00;
+}
+.myarticle-type2-title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #DCDCDC;
+}
+.myarticle-search-list{
+    border: 1px solid #DCDCDC;
+    padding: 10px;
+}
+.myarticle-searchcss{
+	width: 100%;
+	background-image:url(search-btn.jpg);
+    background-repeat:no-repeat;
+    background-size: 25px 25px;
+    padding-left: 35px;
+}
+.myarticle-type1-ctx{
+    padding: 0;
+}
+.myarticle-type1-ctx-box{
+	font: 20px "微软雅黑";
+	padding-top: 10px;
+	border-top: 1px solid #DCDCDC;
+}
+.myarticle-type1-ctx-title{
+	padding-bottom: 10px;
+	font-weight: bolder;
+}
+.myarticle-type1-ctx-word{
+	font-size: 16px;
+	height: 40px;
+	overflow: hidden;
+}
+.myarticle-type1-ctx-more{
+	color: gray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+.myarticle-type1-font-collect{
+	font-size: 14px;
+	padding: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #efeff1;
+	text-align: center;
+	border-radius: 8px;
+}
+.myarticle-type2-ctx-box{
+   padding-bottom: 10px;
+   font: 18px "微软雅黑";
+   border-top: 1px solid #DCDCDC;
+}
+.myarticle-type2-ctx-theme{
+	padding: 0;
+}
+.myarticle-type2-ctx{
+	padding: 0;
+}
+.myarticle-type2-ctx-title{
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.myarticle-type2-question,.myarticle-type2-description{
+	padding-top: 5px;
+	font-size: 18px;
+}
+.myarticle-type2-description{
+    height: 80px;
+    overflow: hidden;
+}
+.myarticle-type2-comment{
+	padding-bottom: 10px;
+	font-size: 16px;
+	text-align: center;
+}
+.myarticle-type2-ctx-more{
+	color: gray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    font-size: 16px;
+}

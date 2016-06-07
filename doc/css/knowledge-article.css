@@ -1,0 +1,84 @@
+#overall{
+	background-color: #e1e5ea;
+}
+.knowledge-article-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+}
+.knowledge-article-head2{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+	top: 0;
+	z-index: 100;
+	color: white;
+}
+.knowledge-article-font-message{
+	text-align: right;
+}
+.knowledge-article-head-stance{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.knowledge-article-ctx-box{
+	font: 20px "微软雅黑";
+	border-top: 1px solid #DCDCDC;
+	background-color: white;
+	padding-bottom: 50px;
+}
+.knowledge-article-ctx-title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bolder;
+}
+.knowledge-article-ctx-word{
+	font-size: 16px;
+}
+.knowledge-article-ctx-more{
+	color: gray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.knowledge-article-person-box{
+	font-size: 18px;
+	padding-top: 20px;
+}
+.knowledge-article-person-photo-box,.knowledge-article-person-ctx-box{
+	padding: 0;
+}
+.knowledge-article-person-ctx-box{
+	padding-top: 10px;
+}
+.knowledge-article-person-photo{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+}
+.knowledge-article-person-name{
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.knowledge-article-person-position{
+	margin: 5px 5px 5px 10px;
+	background-color: #358a0f;
+	padding: 0 5px 0 5px;
+	color: white;
+}
+.knowledge-article-post-time{
+	color: #DCDCDC;
+	font-size: 14px;
+	padding-left: 17px;
+}
+.knowledge-article-font-collect{
+	padding-top: 15px;
+}

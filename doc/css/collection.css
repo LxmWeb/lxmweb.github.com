@@ -1,0 +1,156 @@
+.collection-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+}
+.collection-head2{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    top: 0;
+    font-size: 16px;
+    z-index: 100;
+    color: white;
+}
+.collection-alter{
+	text-align: right;
+}
+.collection-finish{
+	text-align: right;
+}
+.collection-head-stance{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.collection-type{
+	text-align: center;
+	border-bottom: 1px solid #DCDCDC;
+	font: 18px "微软雅黑";
+}
+.collection-type1-title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #f00;
+}
+.collection-type2-title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #DCDCDC;
+}
+.collection-search-list{
+    border: 1px solid #DCDCDC;
+    padding: 10px;
+}
+.collection-searchcss{
+	width: 100%;
+	background-image:url(search-btn.jpg);
+    background-repeat:no-repeat;
+    background-size: 25px 25px;
+    padding-left: 35px;
+}
+.collection-type1-ctx{
+    padding: 0;
+}
+.collection-type1-ctx-box{
+	font: 20px "微软雅黑";
+	padding-top: 10px;
+    border-top: 1px solid #DCDCDC;
+}
+.collection-type1-ctx-title{
+	padding-bottom: 10px;
+	font-weight: bolder;
+}
+.collection-type1-ctx-word{
+	font-size: 16px;
+	height: 40px;
+	overflow: hidden;
+}
+.collection-type1-ctx-more{
+	color: gray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+.collection-type1-font-collect{
+	font-size: 14px;
+	padding: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #efeff1;
+	text-align: center;
+	border-radius: 8px;
+}
+.collection-type2-ctx-box{
+    padding-top: 10px;
+    border-top: 1px solid #DCDCDC;
+    font: 18px "微软雅黑";
+}
+.collection-type2-ctx{
+	padding: 0;
+}
+.collection-type2-ctx-title{
+	font-weight: bold;
+	font-size: 20px;
+}
+.collection-type2-font-collect{
+	font-size: 14px;
+	padding: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #efeff1;
+	text-align: center;
+	border-radius: 8px;
+}
+.collection-type2-question,.collection-type2-description{
+	padding-top: 5px;
+	font-size: 18px;
+}
+.collection-type2-description{
+    height: 80px;
+    overflow: hidden;
+}
+.collection-type2-comment{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	text-align: center;
+}
+.collection-type2-ctx-more{
+	color: gray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    font-size: 16px;
+}
+.collection-type1-ctx-delete{
+	background-color: red;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	padding: 5px 0 5px 0;
+}
+.collection-type1-ctx-delete-box{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.collection-type2-ctx-delete{
+	background-color: red;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	padding: 5px 0 5px 0;
+}
+.collection-type2-ctx-delete-box{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}

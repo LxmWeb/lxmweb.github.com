@@ -1,0 +1,60 @@
+.me-head{
+	background-color: #1E90FF;
+}
+.me-head-pic{
+	padding: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#head-portrait{
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+}
+.me-name{
+	padding-top: 30px;
+	font: 16px "微软雅黑";
+}
+#me-position{
+	margin-top: 5px;
+	font-size: 16px;
+}
+.me-head-font{
+	padding-top: 10px;
+	font-size: 15px;
+}
+.static{
+	background-color: #026fd9;
+	text-align: center;
+	font: 16px "微软雅黑";
+}
+.static-send-num,.static-patient-num,.static-attention-num,.static-cure-num{
+	margin: 10px 0 0 0;
+}
+.selfunction-impatient,.selfunction-evaulate,.selfunction-draft,.selfunction-collect,.selfunction-outime,.selfunction-test,.selfunction-mycard{
+    font: 16px "微软雅黑";
+}
+.selfunction-front{
+	padding-right: 0;
+	text-align: center;
+}
+.selfunction-front-font{
+	padding-top: 20px;
+    padding-bottom: 10px;
+    border-top: 1px solid #DCDCDC;
+    color: #1E90FF;
+}
+.selfunction-name{
+	padding-left: 0;
+	padding-top: 20px;
+    padding-bottom: 10px;
+    border-top: 1px solid #DCDCDC;
+}
+.selfunction-right{
+	padding-top: 20px;
+    padding-bottom: 10px;
+    border-top: 1px solid #DCDCDC;
+}
+.par-self{
+	border-top: 7px solid #DCDCDC;
+}

@@ -1,0 +1,56 @@
+.mypatient-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+}
+.mypatient-head2{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    top: 0;
+    font-size: 16px;
+    z-index: 100;
+    color: white;
+}
+.mypatient-head-stance{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.pat-obj-photo{
+	border-radius: 30px;
+	width: 60px;
+	height: 60px;
+}
+.pat-object{
+	font: 16px "微软雅黑";
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #DCDCDC;
+}
+.pat-obj-name{
+	padding: 0;
+	padding-top: 20px;
+}
+.pat-obj-right{
+	padding-top: 15px; 
+	font-size: 20px;
+}
+.pat-search-list{
+    border: 10px solid #DCDCDC;
+}
+.pat-searchcss{
+	width: 100%;
+	background-image:url(search-btn.jpg);
+    background-repeat:no-repeat;
+    background-size: 25px 25px;
+    padding-left: 35px;
+}

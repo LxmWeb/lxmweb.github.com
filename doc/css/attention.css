@@ -1,0 +1,55 @@
+.att-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+}
+.att-head2{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+	top: 0;
+	z-index: 100;
+	color: white;
+}
+.att-head-stance{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.att-obj-photo{
+	border-radius: 30px;
+	width: 60px;
+	height: 60px;
+}
+.att-object{
+	font: 16px "微软雅黑";
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #DCDCDC;
+}
+.att-obj-name{
+	padding: 0;
+	padding-top: 20px;
+}
+.att-obj-right{
+	padding-top: 15px; 
+	font-size: 20px;
+}
+.att-search-list{
+    border: 10px solid #DCDCDC;
+}
+.att-searchcss{
+	width: 100%;
+	background-image:url(search-btn.jpg);
+    background-repeat:no-repeat;
+    background-size: 25px 25px;
+    padding-left: 35px;
+}

@@ -1,0 +1,90 @@
+.eva-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+}
+.eva-head2{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+	top: 0;
+	z-index: 100;
+	color: white;
+}
+.eva-head-stance{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.general-comment{
+    font: 16px "微软雅黑";
+    text-align: center;
+}
+.comment-name{
+	padding: 0;
+}
+.effect-box{
+	width: 15.5%;
+	height: 17px;
+	margin-right: 5px;
+	background-color: red;
+	float: left;
+}
+.comment-word{
+	padding: 0;
+	color: red;
+	text-align: left;
+}
+.comment-effect,.comment-attitude{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.disease-order{
+	border-top: 7px solid #DCDCDC;
+	border-bottom: 1px solid #DCDCDC;
+	font: 14px "微软雅黑";
+	text-align: center;
+}
+.all-disease,.eva-disease-1,.eva-disease-2,.eva-disease-3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.all-disease{
+	border-bottom: 1px solid #1E90FF;
+}
+.all-disease-num,.eva-disease-1-num,.eva-disease-2-num,.eva-disease-3-num{
+    text-align: center;
+}
+.eva-disease-1-order,.eva-disease-2-order,.eva-disease-3-order{
+    font: 16px "微软雅黑";
+}
+.eva-disease-1-order-1,.eva-disease-2-order-1,.eva-disease-3-order-1{
+	padding-top: 10px;
+    border-bottom: 7px solid #DCDCDC;
+}
+.disease-name{
+	color: orange;
+}
+.disease-name,.disease-goal,.disease-way,.disease-eva,.disease-thank{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.eva-from-name,.eva-from-time{
+	border-top: 1px solid #DCDCDC;
+	color: #DCDCDC;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.eva-from-time{
+	text-align: right;
+}

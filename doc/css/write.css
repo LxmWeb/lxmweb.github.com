@@ -1,0 +1,28 @@
+.write-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+	height: 55px;
+}
+.write-cancel,.write-send{
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.good-post-ctx-head-name{
+	text-align: center;
+}
+.write-head-stance{
+    height: 55px;
+}
+.write-article{
+	width: 100%;
+	font: 16px "微软雅黑";
+}

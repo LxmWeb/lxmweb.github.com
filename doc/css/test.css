@@ -1,0 +1,51 @@
+#overall{
+	background-color: #e1e5ea;
+}
+.test-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+}
+.test-head2{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    top: 0;
+    font-size: 16px;
+    z-index: 100;
+    color: white;
+}
+.test-alter{
+	text-align: right;
+}
+.test-head-stance{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.test-disease{
+	font: 20px "微软雅黑";
+	border-top: 1px solid #DCDCDC;
+	background-color: white;
+}
+.test-disease-title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.test-question{
+	background-color: #b3d9fe;
+}
+.test-disease-type{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	text-align: center;
+}

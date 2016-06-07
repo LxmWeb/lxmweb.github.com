@@ -1,0 +1,134 @@
+.atperson-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+}
+.atperson-head2{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+	top: 0;
+	z-index: 100;
+	color: white;
+}
+.atperson-font-left{
+	text-align: right;
+}
+.atperson-font-down{
+    margin-left: 5px;
+}
+.atperson-head-stance{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.atperson-ctx-box{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 7px solid #DCDCDC;
+}
+.atperson-ctx-person-photo-box{
+	padding: 0;
+}
+.atperson-ctxperson-photo{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+.atperson-ctx-person{
+	padding-bottom: 10px;
+	font: 16px "微软雅黑";
+}
+.atperson-ctx-person-ctx-box{
+	padding: 5px 5px 0 5px; 
+}
+.atperson-ctx-person-name{
+	/*font-size: ;*/
+	margin: 0;
+}
+.atperson-ctx-post-time{
+	font-size: 12px;
+	color: #DCDCDC;
+	margin: 0;
+}
+.atperson-ctx-person-comment{
+	font: 16px "微软雅黑";
+	padding-bottom: 10px;
+}
+.atperson-ctx-ctx{
+	background-color: #eeecec;
+	padding: 5px 0 5px 0;
+	height: 70px;
+	overflow: hidden;
+	font: 14px "微软雅黑";
+}
+.atperson-ctx-ctx-title{
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+.atperson-ctx-person-remark{
+	font: 16px "微软雅黑";
+	padding-top: 10px;
+}
+.atperson-ctx-answer-none{
+	text-align: center;
+	font: 16px "微软雅黑";
+	position: fixed;
+	bottom: 150px;
+	color: white;
+}
+.atperson-ctx-answer-none-ctx{
+	padding: 5px;
+	background-color: #1E90FF;
+}
+.atperson-ctx-answer-succeed{
+	text-align: center;
+	font: 16px "微软雅黑";
+	position: fixed;
+	bottom: 150px;
+	color: white;
+}
+.atperson-ctx-answer-succeed-ctx{
+	padding: 5px;
+	background-color: #1E90FF;
+}
+.atperson-ctx-answer{
+	background-color: #DCDCDC;
+	font: 18px "微软雅黑";
+	position: fixed;
+	bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 70px;
+	z-index: 100;
+}
+.atperson-ctx-answer-instance{
+	background-color: #DCDCDC;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 70px;
+	/*position: absolute;
+	bottom: 0;*/
+}
+.atperson-ctx-answer-enter-text{
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+}
+.atperson-ctx-answer-enter-box{
+	padding-top: 5px;
+}
+.atperson-ctx-answer-enter{
+	background-color: #1E90FF;
+	padding: 5px 10px 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+}

@@ -1,0 +1,242 @@
+.good-post-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+}
+.good-post-head2{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+	top: 0;
+	z-index: 100;
+	color: white;
+}
+.good-post-font-edit{
+	text-align: right;
+}
+.good-post-head-stance{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.good-post-ctx-more{
+	color: gray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.good-post-ctx-box{
+   border-bottom: 1px solid #DCDCDC;
+   padding-bottom: 10px;
+   font: 18px "微软雅黑";
+}
+.good-post-ctx{
+	padding: 0;
+}
+.good-post-ctx-title{
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.good-post-question,.good-post-description{
+	padding-top: 5px;
+	font-size: 18px;
+}
+.good-post-description{
+	height: 100px;
+	overflow: hidden;
+}
+.good-post-person{
+	padding: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 16px;
+}
+.good-post-person-bigbox{
+	height: 100px;
+	overflow: hidden;
+}
+.good-post-person-box{
+    /*background-color: #DCDCDC;*/
+    font-size: 18px;
+}
+.good-post-person-photo{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+}
+.good-post-person-name{
+    margin-top: 7px;
+    margin-left: 4px;
+}
+.good-post-person-position{
+	margin: 5px;
+	background-color: #28b71a;
+	padding: 0 5px 0 5px;
+	color: white;
+}
+.good-post-comment-result{
+	text-align: center;
+}
+.good-post-person-comment{
+	padding-left: 50px;
+	/*background-color: #DCDCDC;*/
+}
+.good-post-comment-box{
+	float: right;
+	background-color: #1E90FF;
+	color: white;
+	padding: 0 5px 0 5px;
+	font-size: 16px;
+}
+.good-post-comment-triangle{
+	float: right;
+	width: 0px;
+	height: 0px;
+	border-top: 6px solid #fff;
+	border-bottom: 6px solid #fff;
+	border-left: 6px solid #fff;
+	border-right: 6px solid #1E90FF;
+	margin-top: 3px;
+}
+/*.good-post-comment-clear{
+	clear: both;
+}*/
+.good-post-comment-ctx{
+	padding: 0;
+	text-align: center;
+}
+.good-post-comment-good,.good-post-comment-com{
+	background-color: #4aa1f7;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+}
+.good-post-comment-font{
+	padding-left: 0;
+	padding-top: 5px;
+}
+.good-post-answer-enter{
+	font-size: 16px;
+}
+.good-post-answer-enter-font{
+	text-align: right;
+}
+.good-post-answer-enter-fontup{
+	width: 0px;
+	height: 0px;
+	border-top: 8px solid #fff;
+	border-bottom: 8px solid #cbc8c8;
+	border-left: 8px solid #fff;
+	border-right: 8px solid #fff;
+}
+.good-post-answer-ctx{
+	border: 1px solid #cbc8c8;
+}
+.good-post-answer-enter-box{
+	padding: 10px 0px 10px 0;
+}
+.good-post-answer-enter-text{
+	border-bottom: 1px solid #cbc8c8;
+	width: 100%;
+}
+.good-post-answer-enter-btn{
+	background-color: #1E90FF;
+	border-radius: 2px;
+	margin-top: 8px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.good-post-answer-none{
+	text-align: center;
+	font: 16px "微软雅黑";
+	position: fixed;
+	bottom: 150px;
+	color: white;
+}
+.good-post-answer-none-ctx{
+	padding: 5px;
+	background-color: #DCDCDC;
+}
+.good-post-answer-succeed{
+	text-align: center;
+	font: 16px "微软雅黑";
+	position: fixed;
+	bottom: 150px;
+	color: white;
+}
+.good-post-answer-succeed-ctx{
+	padding: 5px;
+	background-color: #DCDCDC;
+}
+.write-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+	height: 55px;
+}
+.write-cancel,.write-send{
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.good-post-ctx-head-name{
+	text-align: center;
+}
+.write-head-stance{
+    height: 55px;
+}
+.write-article-title-pre,.write-article-pre{
+	font: 20px "微软雅黑";
+	padding-top: 20px;
+}
+.write-article-title{
+	width: 100%;
+	font: 20px "微软雅黑";
+	margin-top: 20px;
+	border: 1px solid #000;
+	padding: 5px;
+}
+.write-article{
+	margin-top: 20px;
+	width: 100%;
+	font: 16px "微软雅黑";
+	border: 1px solid #000;
+}
+.write-answer-none{
+	text-align: center;
+	font: 16px "微软雅黑";
+	position: fixed;
+	bottom: 200px;
+	color: white;
+}
+.write-answer-none-ctx{
+	padding: 5px;
+	background-color: #1E90FF;
+}
+.write-answer-succeed{
+	text-align: center;
+	font: 16px "微软雅黑";
+	position: fixed;
+	bottom: 200px;
+	color: white;
+}
+.write-answer-succeed-ctx{
+	padding: 5px;
+	background-color: #1E90FF;
+}

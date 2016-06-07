@@ -1,0 +1,64 @@
+.intro-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	color: white;
+}
+.intro-head2{
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    left: 15;
+    top: 0;
+    color: white;
+}
+.intro-photo-name{
+	text-indent: 0.5em;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.intro-photo-box{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: right;
+	padding-right: 0;
+}
+.intro-photo{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+}
+.intro-photo-right{
+    padding-top: 30px;
+}
+.intro-name{
+	font-size: 14px;
+	color: #DCDCDC;
+	border-top: 1px solid #DCDCDC;
+	padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 0;
+    text-align: right;
+}
+.main1{
+    border-top: 10px solid #DCDCDC;
+    font: 18px "微软雅黑";
+}
+.intro,.intro-photo-front{
+	padding-right: 0;
+}
+.intro-title{
+    text-indent: 0.5em;
+}
+.intro-title,.intro-font-right{
+	padding-top: 15px;
+    padding-bottom: 10px;
+    border-top: 1px solid #DCDCDC;
+}
+.intro-font-right,.intro-photo-right{
+    color: #DCDCDC;
+}
+.main2{
+    font: 18px "微软雅黑";
+}

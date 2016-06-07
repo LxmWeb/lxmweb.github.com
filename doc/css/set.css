@@ -1,0 +1,49 @@
+#overall{
+	background-color: #e1e5ea;
+}
+.set-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+}
+.set-head2{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    top: 0;
+    font-size: 16px;
+    z-index: 100;
+    color: white;
+}
+.set-alter{
+	text-align: right;
+}
+.set-head-stance{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.update-register,.set-private,.cache-clear,.message-send,.about-this,.now-versions{
+	font: 18px "微软雅黑";
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #DCDCDC;
+}
+.set-right,.versions-number{
+	color: #DCDCDC;
+	text-align: center;
+}
+.private-merit,.send-merit{
+	font: 16px "微软雅黑";
+	padding-top: 10px;
+	padding-bottom: 15px;
+}

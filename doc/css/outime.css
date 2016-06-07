@@ -1,0 +1,100 @@
+#overall{
+	background-color: #e1e5ea;
+}
+.outime-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+}
+.outime-head2{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    top: 0;
+    font-size: 16px;
+    z-index: 100;
+    color: white;
+}
+.outime-head-stance{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.outime-edit,.outime-finish{
+	text-align: right;
+}
+.outime-remind{
+	background-color: white;
+	font: 18px "微软雅黑";
+}
+.outime-remind-title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.outime-remind-ctx{
+	font: 16px "微软雅黑";
+	color: #b4c9df;
+}
+.outime-time{
+	font: 16px "微软雅黑";
+}
+.outime-time-title{
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.outime-time-ctx{
+	background-color:  white;
+	border-bottom: 1px solid #e1e5ea;
+	color: black;
+}
+.outime-time-ctx-1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.outime-time-add{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.outime-time-option{
+	background-color: #1E90FF;
+}
+.outime-time-plan{
+    text-align: center;
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+    padding: 0;
+}
+.outime-time-type{
+	border-top: 1px solid #1E90FF;
+	border-bottom: 1px solid #1E90FF;
+	padding: 0;
+	text-align: center;
+}
+.outime-time-money{
+	text-align: center;
+	border: 1px solid #1E90FF;
+	border-left: 0;
+	padding: 0;
+}
+.outime-address{
+	font: 18px "微软雅黑";
+}
+.outime-address-title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.outime-address-ctx{
+	font-size: 16px;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

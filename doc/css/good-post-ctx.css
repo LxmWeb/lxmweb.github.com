@@ -1,0 +1,206 @@
+.good-post-ctx-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+	height: 55px;
+}
+.good-post-ctx-head-name{
+	text-align: center;
+}
+/*.good-post-ctx-head-type{
+	margin: auto;
+}*/
+.good-post-ctx-font-down{
+	margin-left: 5px;
+}
+.good-post-ctx-head-stance{
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    height: 55px;
+}
+.good-post-ctx-title{
+	font: 16px "微软雅黑";
+	padding-bottom: 10px;
+}
+/*.good-post-ctx-title-type-box{
+    padding-right: 0;
+    padding-left: 10px;
+}*/
+.good-post-ctx-title-type{
+	font: 16px "宋体";
+	color: white;
+	background-color: #f43610;
+	margin: 0 10px 0 20px;
+	padding: 4px;
+	border-radius: 5px;
+}
+.good-post-ctx-title-name{
+	font-size: 18px;
+	padding: 20px 0 10px 0;
+}
+.good-post-ctx-person-img{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	margin-left: 10px;
+}
+.good-post-ctx-title-person{
+	font-size: 18px;
+	padding: 8px;
+}
+.good-post-ctx-title-person-type{
+	margin-left: 5px;
+	font: 12px "宋体";
+	color: white;
+	background-color: #28b71a;
+	padding: 4px;
+	border-radius: 5px;
+	color: white;
+}
+.good-post-ctx-ctx{
+	font: 18px "微软雅黑";
+	padding-left: 30px;
+	padding-bottom: 20px;
+	/*border-bottom: 7px solid #CD853F;*/
+}
+.good-post-ctx-time{
+	font-size: 18px;
+	padding-left: 30px;
+}
+.good-post-ctx-comment{
+	color: red;
+}
+.good-post-ctx-ctx-box{
+	border-top: 1px solid #DCDCDC;
+    border-bottom: 7px solid #CD853F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.good-post-ctx-person{
+	padding: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font: 16px "微软雅黑";
+	border-top: 1px solid #DCDCDC;
+}
+.good-post-ctx-person-box{
+    /*background-color: #DCDCDC;*/
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.good-post-ctx-person-photo{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+}
+.good-post-ctx-person-name{
+    margin-left: 4px;
+    font-size: 20px;
+}
+.good-post-ctx-person-position{
+	margin: 5px;
+	background-color: #28b71a;
+	padding: 3px 8px 3px 8px;
+	border-radius: 5px;
+	color: white;
+}
+.good-post-ctx-person-comment{
+	font-size: 18px;
+	padding: 0 20px 0 20px;
+}
+.good-post-ctx-person-remark{
+	font-size: 16px;
+	padding-top: 20px;
+}
+.good-post-ctx-answer{
+	background-color: #DCDCDC;
+	font: 18px "微软雅黑";
+	position: fixed;
+	bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 70px;
+	z-index: 100;
+}
+.good-post-ctx-answer-instance{
+	background-color: #DCDCDC;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 70px;
+}
+.good-post-ctx-answer-enter-text{
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+}
+.good-post-ctx-answer-enter-box{
+	padding-top: 5px;
+}
+.good-post-ctx-answer-enter{
+	background-color: #1E90FF;
+	padding: 5px 10px 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.good-post-ctx-answer-none{
+	text-align: center;
+	font: 16px "微软雅黑";
+	position: fixed;
+	bottom: 150px;
+	color: white;
+}
+.good-post-ctx-answer-none-ctx{
+	padding: 5px;
+	background-color: #DCDCDC;
+}
+.good-post-ctx-answer-succeed{
+	text-align: center;
+	font: 16px "微软雅黑";
+	position: fixed;
+	bottom: 150px;
+	color: white;
+}
+.good-post-ctx-answer-succeed-ctx{
+	padding: 5px;
+	background-color: #DCDCDC;
+}
+.good-post-ctx-share-box{
+    z-index: 200;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	height: 100%;
+}
+.good-post-ctx-share{
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	z-index: 300;
+}
+.good-post-ctx-share-title{
+    color: orange;
+    font: 20px "微软雅黑";
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.good-post-ctx-share-wechat,.good-post-ctx-share-qq,.good-post-ctx-share-qqspace{
+	text-align: center;
+	font: 18px "微软雅黑";
+}
+.good-post-ctx-share-wechat-img,.good-post-ctx-share-qq-img,.good-post-ctx-share-qqspace-img{
+	width: 40%;
+	height: 40%;
+}
+.good-post-ctx-share-wechat-word{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

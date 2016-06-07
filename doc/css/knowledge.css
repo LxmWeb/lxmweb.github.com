@@ -1,0 +1,114 @@
+.knowledge-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+}
+.knowledge-head2{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+	top: 0;
+	z-index: 100;
+	color: white;
+}
+.knowledge-font-edit{
+	text-align: right;
+}
+.knowledge-head-stance{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.knowledge-ctx-box{
+	font: 20px "微软雅黑";
+	border-top: 1px solid #DCDCDC;
+}
+.knowledge-ctx-title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bolder;
+}
+.knowledge-ctx-word{
+	font-size: 16px;
+	height: 40px;
+	overflow: hidden;
+}
+.knowledge-ctx-more{
+	color: gray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.knowledge-font-collect{
+	padding-top: 10px;
+}
+.write-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+	height: 55px;
+}
+.write-cancel,.write-send{
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.good-post-ctx-head-name{
+	text-align: center;
+}
+.write-head-stance{
+    height: 55px;
+}
+.write-article-title-pre,.write-article-pre{
+	font: 20px "微软雅黑";
+	padding-top: 20px;
+}
+.write-article-title{
+	width: 100%;
+	font: 20px "微软雅黑";
+	margin-top: 20px;
+	border: 1px solid #000;
+	padding: 5px;
+}
+.write-article{
+	margin-top: 20px;
+	width: 100%;
+	font: 16px "微软雅黑";
+	border: 1px solid #000;
+}
+.write-answer-none{
+	text-align: center;
+	font: 16px "微软雅黑";
+	position: fixed;
+	bottom: 200px;
+	color: white;
+}
+.write-answer-none-ctx{
+	padding: 5px;
+	background-color: #1E90FF;
+}
+.write-answer-succeed{
+	text-align: center;
+	font: 16px "微软雅黑";
+	position: fixed;
+	bottom: 200px;
+	color: white;
+}
+.write-answer-succeed-ctx{
+	padding: 5px;
+	background-color: #1E90FF;
+}

@@ -1,0 +1,116 @@
+#overall{
+	background-color: #DCDCDC;
+}
+.card-head{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: white;
+}
+.card-head2{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    top: 0;
+    font-size: 16px;
+    z-index: 100;
+    color: white;
+}
+.card-more{
+	text-align: right;
+	font-size: 20px;
+}
+.card-head-stance{
+	font: 20px "微软雅黑";
+	background-color: #1E90FF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.card-whole{
+	padding-top: 20px;
+}
+.card-background{
+	background-color: white;
+}
+.card-code-box{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+#card-code{
+	width: 200px;
+	height: 200px;
+}
+.photo-line{
+	border-bottom: 1px solid #DCDCDC;
+    padding-top: 30px;
+}
+.person-photo-box{
+	text-align: center;
+	padding: 0;
+}
+.person-photo{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+}
+.card-name{
+	font: 16px "微软雅黑";
+	text-align: center;
+	padding: 10px 0;
+}
+.code-word{
+	font: 14px "微软雅黑";
+	color: #DCDCDC;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.card-share-box{
+    z-index: 200;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	height: 100%;
+}
+.card-share{
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	z-index: 300;
+}
+.card-share-title{
+    color: orange;
+    font: 20px "微软雅黑";
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-share-wechat,.card-share-qq,.card-share-qqspace{
+	text-align: center;
+	font: 16px "微软雅黑";
+}
+.card-share-wechat-img,.card-share-qq-img,.card-share-qqspace-img{
+	width: 40%;
+	height: 40%;
+}
+.card-share-wechat-word{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-answer-succeed{
+	text-align: center;
+	font: 16px "微软雅黑";
+	position: fixed;
+	bottom: 150px;
+	color: white;
+}
+.card-answer-succeed-ctx{
+	padding: 5px;
+	background-color: #DCDCDC;
+}
