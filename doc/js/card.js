@@ -1,0 +1,32 @@
+$(cardskip);
+function cardskip(){
+	$(".card-share-box").hide();
+	$(".card-answer-succeed").hide();
+	$(".card-right").click(function(){
+        window.location.href="me.html";
+	});
+	$(".card-more").click(function(){
+        $(".card-share-box").show();
+    });
+    $(".card-share-wechat").click(function(){
+        $(".card-answer-succeed").show();
+            setTimeout(function(){
+               $(".card-answer-succeed").hide();
+        },500);
+    });
+    $(".card-share-qq").click(function(){
+        $(".card-answer-succeed").show();
+            setTimeout(function(){
+               $(".card-answer-succeed").hide();
+        },500);
+    });
+    $(".card-share-qqspace").click(function(){
+        $(".card-answer-succeed").show();
+        setTimeout(function(){
+               $(".card-answer-succeed").hide();
+        },500);
+    });
+    $(".card-share-box").click(function(){
+        $(".card-share-box").hide();
+    });
+}

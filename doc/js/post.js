@@ -1,0 +1,90 @@
+$(postskip);
+function postskip(){
+	$(".post-parpost-comment-ctx").hide();
+	$(".post-answer-enter").hide();
+	$(".post-parpost-comment-result").hide();
+	$(".post-parpost-answer-none").hide();
+    $(".post-parpost-answer-succeed").hide();
+	$(".post-parpost-comment-box").click(function(){
+        $(".post-parpost-comment-ctx").toggle();
+        $(".post-answer-enter").hide();
+	});
+	var knowhidden=1,knowhideindex;
+	$(".post-knowlege-ctx-more").click(function(){
+        knowhideindex=$(".post-knowlege-ctx-more").index(this);
+        if(knowhidden==1){
+           $(".post-knowlege-ctx-word").eq(knowhideindex).css("height","100%");
+	       $(this).text("收起");
+	       knowhidden=0;
+        }
+        else{
+        	$(".post-knowlege-ctx-word").eq(knowhideindex).css("height","40px");
+	        //$(".post-knowlege-ctx-more").eq(hideindex).text("点击展开全文");
+	        $(this).text("点击展开全文");
+	        knowhidden=1;
+        }
+	});
+	var parhidden=1,parhideindex;
+	$(".post-parpost-ctx-more").click(function(){
+		parhideindex=$(".post-parpost-ctx-more").index(this);
+        if(parhidden==1){
+           $(".post-parpost-person-bigbox").eq(parhideindex).css("height","100%");
+	       $(this).text("收起");
+	       parhidden=0;
+        }
+        else{
+        	$(".post-parpost-person-bigbox").eq(parhideindex).css("height","100px");
+	        $(this).text("点击展开全文");
+	        parhidden=1;
+        }
+	});
+	var isgood=0;
+	$(".post-parpost-comment-good").click(function(){
+		if(isgood==0){
+	        $(this).css("color","red");
+	        isgood=1;
+	    }
+	    else{
+            $(this).css("color","white");
+	        isgood=0;
+	    }
+	});
+	var commentindex;
+	$(".post-parpost-comment-com").click(function(){
+		commentindex=$(".post-parpost-comment-com").index(this);
+        $(".post-answer-enter").eq(commentindex).toggle();
+	});
+	var postanswer,answerindex;
+	$(".post-answer-enter-btn").click(function(){
+		postanswer=$(".post-answer-enter-text").val();
+		$(this).css("background-color","#5daefe");
+        setTimeout(function(){
+            $(".post-answer-enter-btn").css("background-color","#1E90FF");
+        },300);
+        answerindex=$(".post-answer-enter-btn").index(this);
+       if(postanswer==""){
+            $(".post-parpost-answer-none").show();
+            setTimeout(function(){
+               $(".post-parpost-answer-none").hide();
+            },500);
+        }
+        else{
+            //$(".good-post-ctx").eq(thisindex).append("<div class=\"col-xs-12 good-post-person\"><div class=\"col-xs-12 good-post-person-box\"><img src=\"1.jpg\" class=\"good-post-person-photo\"/><span class=\"good-post-person-name\">XXX</span><span class=\"good-post-person-position\">医生</span></div><div class=\"col-xs-12 good-post-person-comment\">"+postAnswer+"</div></div>");
+            $(".post-parpost-person-bigbox").eq(answerindex).append("<div class=\"col-xs-12 post-parpost-person\"><div class=\"col-xs-12 post-parpost-person-box\"><img src=\"pic/person-1.jpg\" class=\"post-parpost-person-photo\"/><span class=\"post-parpost-person-name\">XXX</span><span class=\"post-parpost-person-position\">医生</span></div><div class=\"col-xs-12 post-parpost-person-comment\">"+postanswer+"</div></div>");
+            $(".post-parpost-answer-succeed").show();
+            setTimeout(function(){
+               $(".post-parpost-answer-succeed").hide();
+            },500);
+            $(".post-answer-enter-text").val("");
+        }
+	});
+	$(".post-knowlege-more").click(function(){
+        window.location.href="knowledge.html";
+	});
+	$(".post-parpost-more").click(function(){
+        window.location.href="good-post.html";
+	});
+	$(".post-font-message").click(function(){
+        window.location.href="message.html";
+	});
+}

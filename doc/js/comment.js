@@ -1,0 +1,45 @@
+$(commentskip);
+function commentskip(){
+    $(".comment-ctx-answer-none").hide();
+    $(".comment-ctx-answer-succeed").hide();
+    $(".comment-ctx-answer-box").hide();
+    var isgood=0;
+    $(".comment-ctx-person-font-love").click(function(){
+        if(isgood==0){
+            $(this).css("color","red");
+            $(this).find('.comment-ctx-person-font-love-word').text("已赞");
+            isgood=1;
+        }
+        else{
+            $(this).css("color","black");
+            $(this).find('.comment-ctx-person-font-love-word').text("赞");
+            isgood=0;
+        }
+    });
+    $(".comment-ctx-answer-enter").click(function(){
+        $(this).css("background-color","#5daefe");
+        setTimeout(function(){
+            $(".comment-ctx-answer-enter").css("background-color","#1E90FF");
+        },300);
+        if($(".comment-ctx-answer-enter-text").val()==""){
+            $(".comment-ctx-answer-none").show();
+            setTimeout(function(){
+               $(".comment-ctx-answer-none").hide();
+            },500);
+            $(".comment-ctx-answer-none").show();
+        }
+        else{
+            $(".comment-ctx-answer-succeed").show();
+            setTimeout(function(){
+               $(".comment-ctx-answer-succeed").hide();
+            },500);
+            $(".comment-ctx-answer-enter-text").val("");
+        }
+    });
+    $(".comment-ctx-response").click(function(){
+           $(".comment-ctx-answer-box").toggle();
+    });
+    $(".comment-font-left").click(function(){
+       window.location.href="message.html";
+    });
+}
