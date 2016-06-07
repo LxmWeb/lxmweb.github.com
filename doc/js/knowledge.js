@@ -13,7 +13,7 @@ function knowledgeskip(){
         $(this).css("color","red");
     });
 	$(".knowledge-font-right").click(function(){
-        window.location.href="post.html";
+        window.location.href="firstpage.html";
 	});
 	$(".knowledge-font-edit").click(function(){
         $(".knowledge-page").hide();
