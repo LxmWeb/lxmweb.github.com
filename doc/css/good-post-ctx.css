@@ -14,9 +14,6 @@
 .good-post-ctx-head-name{
 	text-align: center;
 }
-/*.good-post-ctx-head-type{
-	margin: auto;
-}*/
 .good-post-ctx-font-down{
 	margin-left: 5px;
 }
@@ -30,10 +27,6 @@
 	font: 16px "微软雅黑";
 	padding-bottom: 10px;
 }
-/*.good-post-ctx-title-type-box{
-    padding-right: 0;
-    padding-left: 10px;
-}*/
 .good-post-ctx-title-type{
 	font: 16px "宋体";
 	color: white;
@@ -69,7 +62,9 @@
 	font: 18px "微软雅黑";
 	padding-left: 30px;
 	padding-bottom: 20px;
-	/*border-bottom: 7px solid #CD853F;*/
+}
+.good-post-ctx-font-star{
+	padding-top: 10px;
 }
 .good-post-ctx-time{
 	font-size: 18px;
@@ -92,7 +87,6 @@
 	border-top: 1px solid #DCDCDC;
 }
 .good-post-ctx-person-box{
-    /*background-color: #DCDCDC;*/
     font-size: 16px;
     padding-bottom: 30px;
 }
