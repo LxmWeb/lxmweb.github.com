@@ -85,6 +85,13 @@
 	bottom: 0;
 	z-index: 300;
 }
+.card-extra{
+	position: fixed;
+	bottom: 0;
+	z-index: 250;
+	height: 100%;
+	width: 100%;
+}
 .card-share-title{
     color: orange;
     font: 20px "微软雅黑";
@@ -99,7 +106,7 @@
 	width: 40%;
 	height: 40%;
 }
-.card-share-wechat-word{
+.card-share-wechat-word,.card-share-qq-word,.card-share-qqspace-word{
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -112,5 +119,5 @@
 }
 .card-answer-succeed-ctx{
 	padding: 5px;
-	background-color: #DCDCDC;
+	background-color: #1E90FF;
 }

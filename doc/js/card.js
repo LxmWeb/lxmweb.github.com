@@ -10,23 +10,35 @@ function cardskip(){
     });
     $(".card-share-wechat").click(function(){
         $(".card-answer-succeed").show();
-            setTimeout(function(){
-               $(".card-answer-succeed").hide();
+        $(this).css("background-color","#f2f2f2");
+        setTimeout(function(){
+            $(".card-share-wechat").css("background-color","white");
+        },300);
+        setTimeout(function(){
+            $(".card-answer-succeed").hide();
         },500);
     });
     $(".card-share-qq").click(function(){
         $(".card-answer-succeed").show();
-            setTimeout(function(){
-               $(".card-answer-succeed").hide();
+        $(this).css("background-color","#f2f2f2");
+        setTimeout(function(){
+            $(".card-share-qq").css("background-color","white");
+        },300);
+        setTimeout(function(){
+            $(".card-answer-succeed").hide();
         },500);
     });
     $(".card-share-qqspace").click(function(){
         $(".card-answer-succeed").show();
+        $(this).css("background-color","#f2f2f2");
         setTimeout(function(){
-               $(".card-answer-succeed").hide();
+            $(".card-share-qqspace").css("background-color","white");
+        },300);
+        setTimeout(function(){
+            $(".card-answer-succeed").hide();
         },500);
     });
-    $(".card-share-box").click(function(){
+    $(".card-extra").click(function(){
         $(".card-share-box").hide();
     });
 }

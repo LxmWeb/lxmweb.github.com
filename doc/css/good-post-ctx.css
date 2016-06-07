@@ -1,5 +1,5 @@
 .good-post-ctx-head{
-	font: 20px "微软雅黑";
+	font: 18px "微软雅黑";
 	background-color: #1E90FF;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -59,7 +59,7 @@
 	color: white;
 }
 .good-post-ctx-ctx{
-	font: 18px "微软雅黑";
+	font: 16px "微软雅黑";
 	padding-left: 30px;
 	padding-bottom: 20px;
 }
@@ -67,7 +67,7 @@
 	padding-top: 10px;
 }
 .good-post-ctx-time{
-	font-size: 18px;
+	font-size: 16px;
 	padding-left: 30px;
 }
 .good-post-ctx-comment{
@@ -88,7 +88,7 @@
 }
 .good-post-ctx-person-box{
     font-size: 16px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .good-post-ctx-person-photo{
 	width: 40px;
@@ -107,7 +107,7 @@
 	color: white;
 }
 .good-post-ctx-person-comment{
-	font-size: 18px;
+	font-size: 16px;
 	padding: 0 20px 0 20px;
 }
 .good-post-ctx-person-remark{
@@ -180,6 +180,13 @@
 	bottom: 0;
 	z-index: 300;
 }
+.good-post-ctx-extra{
+	position: fixed;
+	bottom: 0;
+	z-index: 250;
+	height: 100%;
+	width: 100%;
+}
 .good-post-ctx-share-title{
     color: orange;
     font: 20px "微软雅黑";
@@ -194,7 +201,7 @@
 	width: 40%;
 	height: 40%;
 }
-.good-post-ctx-share-wechat-word{
+.good-post-ctx-share-wechat-word,.good-post-ctx-share-qq-word,.good-post-ctx-share-qqspace-word{
     margin-top: 10px;
     margin-bottom: 10px;
 }

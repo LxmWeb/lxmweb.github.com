@@ -36,7 +36,12 @@ function goodPostctxskip(){
             // $(".good-post-ctx-answer-none").show();
         }
         else{
-            $(".good-post-ctx-person-comment-whole").append("<div class=\"col-xs-12 good-post-ctx-person\"><div class=\"col-xs-12 good-post-ctx-person-box\"><img src=\"pic/person-2.jpg\" class=\"good-post-ctx-person-photo\"/><span class=\"good-post-ctx-person-name\">XXX</span><span class=\"good-post-ctx-person-position\">医生</span></div><div class=\"col-xs-12 good-post-ctx-person-comment\">"+$(".good-post-ctx-answer-enter-text").val()+"</div><div class=\"col-xs-12 good-post-ctx-person-remark\"><div class=\"col-xs-5 good-post-ctx-person-time\">5-16</div><div class=\"col-xs-3 good-post-ctx-person-font-love\"><i class=\"fa fa-heart-o fa-lg\"></i>赞</div><div class=\"col-xs-4 good-post-ctx-person-font-comment\"><i class=\"fa fa-commenting-o fa-lg\"></i>评论</div></div></div>")
+            if(postcom==1){
+               $(".good-post-ctx-person-comment-whole").append("<div class=\"col-xs-12 good-post-ctx-person\"><div class=\"col-xs-12 good-post-ctx-person-box\"><img src=\"pic/person-2.jpg\" class=\"good-post-ctx-person-photo\"/><span class=\"good-post-ctx-person-name\">XXX</span><span class=\"good-post-ctx-person-position\">医生</span></div><div class=\"col-xs-12 good-post-ctx-person-comment\">"+$(".good-post-ctx-answer-enter-text").val()+"</div><div class=\"col-xs-12 good-post-ctx-person-remark\"><div class=\"col-xs-5 good-post-ctx-person-time\">5-16</div><div class=\"col-xs-3 good-post-ctx-person-font-love\"><i class=\"fa fa-heart-o fa-lg\"></i>赞</div><div class=\"col-xs-4 good-post-ctx-person-font-comment\"><i class=\"fa fa-commenting-o fa-lg\"></i>评论</div></div></div>")
+            }
+            if(personcom==1){
+               $("good-post-ctx-person-comment-box").append("<div class=\"col-xs-12\"><div class=\"col-xs-12 good-post-ctx-person-box\"><img src=\"pic/person-1.jpg\" class=\"good-post-ctx-person-photo\"/><span class=\"good-post-ctx-person-name\">XXX</span><span class=\"good-post-ctx-person-position\">医生</span></div><div class=\"col-xs-12 good-post-ctx-person-comment\">"+$(".good-post-ctx-answer-enter-text").val()+"</div></div>")
+            }
             $(".good-post-ctx-answer-succeed").show();
             setTimeout(function(){
                $(".good-post-ctx-answer-succeed").hide();
@@ -44,34 +49,63 @@ function goodPostctxskip(){
             $(".good-post-ctx-answer-enter-text").val("");
         }
     });
+    var postcom=0,personcom=0;
     $(".good-post-ctx-comment").click(function(){
-           $(".good-post-ctx-answer-box").toggle();
+        if(personcom==0){
+            $(".good-post-ctx-answer-box").toggle();
+            if(postcom==0){
+              postcom=1;
+            }
+            else{
+              postcom=0;
+            }
+        }
     });
     $(".good-post-ctx-person-font-comment").click(function(){
-        $(".good-post-ctx-answer-box").toggle();
+        if(postcom==0){
+           $(".good-post-ctx-answer-box").toggle();
+            if(personcom==0){
+              personcom=1;
+            }
+            else{
+              personcom=0;
+            }
+        }
     });
     $(".good-post-ctx-font-more").click(function(){
         $(".good-post-ctx-share-box").show();
     });
+    $(".good-post-ctx-extra").click(function(){
+        $(".good-post-ctx-share-box").hide();
+    });
     $(".good-post-ctx-share-wechat").click(function(){
         $(".good-post-ctx-answer-succeed").show();
-            setTimeout(function(){
-               $(".good-post-ctx-answer-succeed").hide();
+        $(this).css("background-color","#f2f2f2");
+        setTimeout(function(){
+            $(".good-post-ctx-share-wechat").css("background-color","white");
+        },300);
+        setTimeout(function(){
+            $(".good-post-ctx-answer-succeed").hide();
         },500);
     });
     $(".good-post-ctx-share-qq").click(function(){
         $(".good-post-ctx-answer-succeed").show();
-            setTimeout(function(){
-               $(".good-post-ctx-answer-succeed").hide();
+        $(this).css("background-color","#f2f2f2");
+        setTimeout(function(){
+            $(".good-post-ctx-share-qq").css("background-color","white");
+        },300);
+        setTimeout(function(){
+            $(".good-post-ctx-answer-succeed").hide();
         },500);
     });
     $(".good-post-ctx-share-qqspace").click(function(){
         $(".good-post-ctx-answer-succeed").show();
-            setTimeout(function(){
-               $(".good-post-ctx-answer-succeed").hide();
+        $(this).css("background-color","#f2f2f2");
+        setTimeout(function(){
+            $(".good-post-ctx-share-qqspace").css("background-color","white");
+        },300);
+        setTimeout(function(){
+            $(".good-post-ctx-answer-succeed").hide();
         },500);
-    });
-    $(".good-post-ctx-share-box").click(function(){
-        $(".good-post-ctx-share-box").hide();
     });
 }
