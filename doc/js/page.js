@@ -304,7 +304,7 @@ function netReplyCon(){
 		var reply=$('#dt_netReply').val();
 		if(reply!=""){
 			// $('#netreply_Consult').hide();
-			alert($('.net_patNum').text());
+			//alert($('.net_patNum').text());
 			$('.net_patNum').text("回复成功！");
 			// $(this).parent().text("回复成功！");
 		setTimeout(function(){
