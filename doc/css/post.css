@@ -43,18 +43,19 @@
 }
 .post-knowlege-ctx{
 	border-bottom: 1px solid #DCDCDC;
-}
-.post-knowlege-ctx-title{
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+.post-knowlege-ctx-title{
 	font-weight: bolder;
 	color: gray;
 }
 .post-knowlege-ctx-word{
 	font-size: 16px;
 	color: gray;
-	height: 40px;
+	height: 50px;
 	overflow:hidden;
+	padding-top: 10px;
 }
 .post-knowlege-ctx-more,.post-parpost-ctx-more{
 	color: gray;
@@ -63,17 +64,19 @@
 }
 .post-parpost-ctx-box{
    border-bottom: 1px solid #DCDCDC;
-   padding-bottom: 10px;
+   padding-bottom: 20px;
 }
 .post-parpost-ctx{
 	padding: 0;
+	padding-top: 10px;
+/*	padding-bottom: 10px;*/
 }
 .post-parpost-ctx-title{
 	padding-top: 5px;
 	font-weight: bold;
 	font-size: 18px;
 }
-.post-parpost-question,.post-parpost-description{
+.post-parpost-question{
 	padding-top: 5px;
 	font-size: 16px;
 }
@@ -185,7 +188,7 @@
 }
 .post-parpost-answer-none-ctx{
 	padding: 5px;
-	background-color: #DCDCDC;
+	background-color: #1E90FF;
 }
 .post-parpost-answer-succeed{
 	text-align: center;
@@ -196,5 +199,5 @@
 }
 .post-parpost-answer-succeed-ctx{
 	padding: 5px;
-	background-color: #DCDCDC;
+	background-color: #1E90FF;
 }

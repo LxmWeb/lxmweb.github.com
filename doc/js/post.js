@@ -5,9 +5,9 @@ function postskip(){
 	$(".post-parpost-comment-result").hide();
 	$(".post-parpost-answer-none").hide();
     $(".post-parpost-answer-succeed").hide();
-	$(".post-parpost-comment-box").click(function(){
-        $(".post-parpost-comment-ctx").toggle();
-        $(".post-answer-enter").hide();
+	$(".post-parpost-comment-font").click(function(){
+         $(this).prev().toggle();
+         $(".post-answer-enter").hide();
 	});
 	var knowhidden=1,knowhideindex;
 	$(".post-knowlege-ctx-more").click(function(){
@@ -18,11 +18,16 @@ function postskip(){
 	       knowhidden=0;
         }
         else{
-        	$(".post-knowlege-ctx-word").eq(knowhideindex).css("height","40px");
-	        //$(".post-knowlege-ctx-more").eq(hideindex).text("点击展开全文");
+        	$(".post-knowlege-ctx-word").eq(knowhideindex).css("height","50px");
 	        $(this).text("点击展开全文");
 	        knowhidden=1;
         }
+	});
+	$(".post-knowlege-ctx-font-collect").click(function(){
+        $(this).css("color","red");
+	});
+	$(".post-parpost-ctx-font-collect").click(function(){
+        $(this).css("color","red");
 	});
 	var parhidden=1,parhideindex;
 	$(".post-parpost-ctx-more").click(function(){
@@ -56,12 +61,12 @@ function postskip(){
 	});
 	var postanswer,answerindex;
 	$(".post-answer-enter-btn").click(function(){
-		postanswer=$(".post-answer-enter-text").val();
+		answerindex=$(".post-answer-enter-btn").index(this);
+		postanswer=$(".post-answer-enter-text").eq(answerindex).val();
 		$(this).css("background-color","#5daefe");
         setTimeout(function(){
             $(".post-answer-enter-btn").css("background-color","#1E90FF");
         },300);
-        answerindex=$(".post-answer-enter-btn").index(this);
        if(postanswer==""){
             $(".post-parpost-answer-none").show();
             setTimeout(function(){

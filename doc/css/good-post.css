@@ -45,6 +45,9 @@
 	font-weight: bold;
 	font-size: 20px;
 }
+.good-post-ctx-font-collect{
+	padding-top: 10px;
+}
 .good-post-question,.good-post-description{
 	padding-top: 5px;
 	font-size: 18px;
@@ -164,7 +167,7 @@
 }
 .good-post-answer-none-ctx{
 	padding: 5px;
-	background-color: #DCDCDC;
+	background-color: #1E90FF;
 }
 .good-post-answer-succeed{
 	text-align: center;
@@ -175,7 +178,7 @@
 }
 .good-post-answer-succeed-ctx{
 	padding: 5px;
-	background-color: #DCDCDC;
+	background-color: #1E90FF;
 }
 .write-head{
 	font: 20px "微软雅黑";
