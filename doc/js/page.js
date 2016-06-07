@@ -303,12 +303,23 @@ function netReplyCon(){
 		$('#netreply_btn').click(function() {
 		var reply=$('#dt_netReply').val();
 		if(reply!=""){
-			$('#netreply_Consult').hide();
+			// $('#netreply_Consult').hide();
+			alert($('.net_patNum').text());
+			$('.net_patNum').text("回复成功！");
+			// $(this).parent().text("回复成功！");
+		setTimeout(function(){
+           $('#netreply_Consult').hide();	
+       },2000);
 		    $('#dt_netReply').val("");
 		}
 	});
+		    $(this).parent().parent().remove();
+		    var t="<p>"+"病例号：123456789"+"</p><p>"+"性别 患病时长 地点"+"</p><p>"+"疾病：情绪障碍"+"</p><p>"+"内容："+"</p><p>"+"不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！"+"</p>";
+	        // alert(t);
+	        $('.net_patNum').text(t);
 	});
 	$('#closeAch').click(function() {
+		// alert($('#dt_ach').text());
 		$('#netreply_Consult').hide();
 		$('#dt_netReply').val("");
 	});
