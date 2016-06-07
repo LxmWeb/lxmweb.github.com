@@ -553,10 +553,17 @@ i{
 	margin-bottom: 5%;
 	border-radius: 5px;
 }
+/*最后增加*/
 .ct_record{
 	width: 10%;
 }
-
+.ct_present{
+	width: 14%;
+	margin: 5%;
+}
+.bgPic{
+	margin-top: 20%;
+}
 /*测试内容页面*/
 .testId{
 	margin-top: 5%;
