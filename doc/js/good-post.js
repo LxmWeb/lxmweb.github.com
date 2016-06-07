@@ -66,7 +66,7 @@ function goodpostskip(){
         window.location.href="good-post-ctx.html";
 	});
 	$(".good-post-left").click(function(){
-        window.location.href="post.html";
+        window.location.href="firstpage.html";
 	});
 	$(".good-post-edit").click(function(){
         $(".good-post-page").hide();
