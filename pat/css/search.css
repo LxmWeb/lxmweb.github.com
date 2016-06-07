@@ -1,0 +1,78 @@
+.col-title {
+	padding-bottom: 3%;
+	background: #3399FF;
+}
+.search {
+	margin: 4% 0 2% 2%;
+    background: #3399FF;
+    border: 1px solid #3399FF;
+    color: white;
+    outline: none;
+}
+.search-border {
+  border-bottom: 1px solid white;
+}
+.back {
+	margin-top: 22%;
+	margin-left: 30%;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+}
+.search-classify {
+	margin: 0 -5%;
+}
+.classify {
+	padding: 3% 0;
+/*    background: white;*/
+	border-bottom: 1px solid lightgray;
+/*	display: inline-block;*/
+}
+.classify-b {
+	/*margin-top: 2px;*/
+	border-right: 1px solid lightgray;
+	/*border-bottom: 1px solid lightgray;*/
+	text-align: center;
+}
+.search-history {}
+.history-record {
+	padding: 2% 8%;
+	background: #EDEDED;
+	border-bottom: 1px solid lightgray;
+}
+.history-records {
+    padding: 3% 8%;
+    border-bottom: 1px solid lightgray;
+    color: gray;
+}
+.clear-history-record {
+	padding: 3% 34%;
+	color: gray;
+	border-bottom: 1px solid lightgray;
+}
+.search-posting {
+	width: 100%;
+	padding: 0 5% 2% 5%;
+	border-bottom: 2px solid lightgray;
+}
+.search-in-posting {
+   padding:  0 5%;	
+   position: relative;
+}
+.search-problem {	}
+.search-passage-content {
+    overflow: hidden;
+    white-space: nowrap;
+	text-overflow: ellipsis;
+	
+}
+.search-smtitle {
+	margin-top: 3%;
+	font-size: 16px;
+}
+.line {
+	height: 5px;
+	background: #F2F2F2;
+	/*background: lightgray;*/
+	border-bottom: 1px solid #F2F2F2;
+}

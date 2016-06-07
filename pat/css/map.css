@@ -1,0 +1,31 @@
+#myMap {
+  width: 98%;
+  height: 50%;
+  margin-left: 1%;
+}
+#result {
+/*	position: absolute;*/
+	width: 98%;
+	height: 50%;
+	margin-left: 1%;
+/*	top:10px;
+    left:950px;*/
+}
+.map-title {
+	width: 100%;
+	background: #3399FF;
+	z-index: 50;
+	position: fixed;
+	top: 0;
+}
+.map-header {
+    padding: 4% 0 0 10%;
+    margin-left: 20%;
+    margin-top: 2%;
+	font-size: 21px;
+	color: white;
+ }
+ .map-back {
+	width: 25px;
+	margin: 15px 0;
+}

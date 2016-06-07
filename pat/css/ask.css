@@ -1,0 +1,69 @@
+.ask-title {
+	width: 100%;
+	background: #3399FF;
+	position: fixed;
+	top: 0;
+}
+.ask-header {
+	padding: 7% 0 0 9%;
+	font-size: 23px;
+	color: white;
+	text-align: center;
+}
+.ask-sty {
+	width: 25px;
+	margin: 30% 0 30% 40%;
+}
+.ask-back {
+	width: 25px;
+	margin: 15px 0;
+}
+.ask-emptydiv {
+	width: 100%;
+	height: 55px;
+}
+.ask-recommend {
+	padding: 2% 5%;
+	border-bottom: 1px solid lightgray;
+}
+.ask-recommend-pic {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+.ask-recommend-word {
+    margin: 1% 1%;
+	display: inline-block;
+}
+.recommend-doctor {
+	padding: 8px;
+	border-bottom: 1px solid lightgray;
+}
+.recommend-doctor-head {
+	width: 55px;
+	height: 50px;
+}
+.recommend-doctor-name {
+	margin-left: -4%;
+	padding-right: 4%;
+	font-size: 17px;
+	font-weight: bold;
+	display: inline-block;
+}
+.recommend-doctor-major {
+	margin-left: -4%;
+	display: inline-block;
+}
+.recommend-doctor-address {
+	margin-left: -10px;
+	font-weight: bold;
+	color: gray;
+}
+.major {
+	color: orange;
+}
+.online-doctor {
+	padding: 2% 5%;
+	background: #F0F0F0;
+	border-bottom: 1px solid lightgray;
+}

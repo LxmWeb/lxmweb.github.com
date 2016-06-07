@@ -1,0 +1,62 @@
+.col-title {
+	width: 100%;
+	background: #3399FF;
+	z-index: 50;
+	position: fixed;
+	top: 0;
+}
+.message-header {
+    padding: 4% 0 0 10%;
+    margin-left: 20%;
+    margin-top: 2%;
+	font-size: 21px;
+	color: white;
+ }
+ .message-back {
+	width: 25px;
+	margin: 15px 0;
+}
+.empty-div {
+	margin-top: 17%;
+	width: 100%;
+	height: 1px;
+}
+.message-detail {
+ /*   margin-top: 1%;*/
+	padding: 4% 0;
+	background: white;
+	border-bottom: 1px solid lightgray;
+}
+.chat-img {
+	width: 30px;
+	height: 30px;
+	margin-left: -4%;
+}
+.chat-name {
+	margin-left: -10%;
+	margin-top: -3%;
+}
+.chat-message {
+	margin-left: -10%;
+	color: gray;
+    overflow: hidden;
+    white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.chat-allmessage {
+	margin-left: -10%;
+	color: gray;
+    word-wrap: break-word;
+}
+.picture {
+	position: relative;
+}
+.tip {
+	width: 8px;
+	height: 8px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 40px;
+}
