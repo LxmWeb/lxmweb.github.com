@@ -45,7 +45,8 @@
 	font-size: 20px;
 }
 .pat-search-list{
-    border: 10px solid #DCDCDC;
+    border: 1px solid #DCDCDC;
+    padding: 10px;
 }
 .pat-searchcss{
 	width: 100%;
