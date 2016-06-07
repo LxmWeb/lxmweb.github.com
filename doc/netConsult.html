@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- 屏幕自适应 -->
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap\css\bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css\firstpage.css">
+	<link rel="stylesheet" href="font-awesome\css\font-awesome.min.css">
+    <script type="text/javascript" src="js\jquery-1.12.2.js"></script>
+    <script type="text/javascript" src="bootstrap\js\bootstrap.js"></script>
+    <script type="text/javascript" src="js\page.js"></script>
+</head>
+<body>
+<div>
+<div class="container-fluid">
+	<div class="row chatHead">
+		<div class="col-xs-12 patientNum">网络咨询</div>
+	</div>
+	<div class="row return">
+		<a href="firstpage.html" style="color:#fff;"><i class="fa fa-arrow-left"></i></a>
+	</div>
+</div>
+<div class="container-fluid consult_content">
+	<div class="row consultType">
+		<div class="col-xs-4 newPatient">
+			未受理
+		</div>
+		<div class="col-xs-4 nowPatient">
+			已受理
+		</div>
+		<div class="col-xs-4 allPatient">
+			全部
+		</div>
+	</div>
+	<!-- 未受理版块 -->
+	<div class="row newContent">
+		<div class="col-xs-12 example_consult">
+			<div class="row">
+				<div class="col-xs-8 patNum">病例号：123456789</div>
+				<div class="col-xs-2 replyConBtn">回复</div>
+			</div>
+			<p>性别 患病时长 地点</p>
+			<p>疾病：情绪障碍</p>
+			<p>内容：xxxxxxxxxxxxx</p>
+		</div>
+		<div class="col-xs-12 example_consult">
+			<div class="row">
+				<div class="col-xs-8 patNum">病例号：123456789</div>
+				<div class="col-xs-2 replyConBtn">回复</div>
+			</div>
+			<p>性别 患病时长 地点</p>
+			<p>疾病：情绪障碍</p>
+			<p>内容：xxxxxxxxxxxxx</p>
+		</div>
+		<div class="col-xs-12 example_consult">
+			<div class="row">
+				<div class="col-xs-8 patNum">病例号：123456789</div>
+				<div class="col-xs-2 replyConBtn">回复</div>
+			</div>
+			<p>性别 患病时长 地点</p>
+			<p>疾病：情绪障碍</p>
+			<p>内容：xxxxxxxxxxxxx</p>
+		</div>
+		<div class="col-xs-12 example_consult">
+			<div class="row">
+				<div class="col-xs-8 patNum">病例号：123456789</div>
+				<div class="col-xs-2 replyConBtn">回复</div>
+			</div>
+			<p>性别 患病时长 地点</p>
+			<p>疾病：情绪障碍</p>
+			<p>内容：xxxxxxxxxxxxx</p>
+		</div>
+	</div>
+	<div id="netreply_Consult">
+		<div id="closeAch">
+    	<img src="pic\close.png">
+    </div>
+	<div class="col-xs-12" id="dt_ach">
+		<div class="row">
+		<div class="col-xs-12" id="netreplyTitle">回复</div>
+		<div class="col-xs-12 net_patNum">
+		<p>病例号：123456789</p>
+		<p>性别 患病时长 地点</p>
+		<p>疾病：情绪障碍</p>
+		<p>内容：</p>
+		<p>不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！不开心！</p>
+		</div>
+	    <div id="dt_reT">医生回复</div>
+		<textarea id="dt_netReply"></textarea><br>
+		<div id="netreply_btn">回复</div>
+		</div>
+	</div>
+	</div>
+	<!-- 已受理版块 -->
+	<div class="row nowContent">
+		<div class="col-xs-12 example_consult">病例号：123456789
+		<img src="pic\deal.png">
+		</div>
+		<div class="col-xs-12 example_consult">病例号：123456789
+		<img src="pic\deal.png">
+		</div>
+		<div class="col-xs-12 example_consult">病例号：123456789
+		<img src="pic\deal.png">
+		</div>
+		<div class="col-xs-12 example_consult">病例号：123456789
+		<img src="pic\deal.png">
+		</div>
+		<div class="col-xs-12 example_consult">病例号：123456789
+		<img src="pic\deal.png">
+		</div>
+	</div>
+	<!-- 全部版块 -->
+	<div class="row allContent">
+		<div class="col-xs-12 example_consult">
+			<div class="patNum">病例号：123456789</div>
+			<p>性别 患病时长 地点</p>
+			<p>疾病：情绪障碍</p>
+			<p>内容：xxxxxxxxxxxxx</p>
+			<div class="col-xs-3 repliedMark">已回复</div>
+		</div>
+		<div class="col-xs-12 example_consult">
+			<div class="patNum">病例号：123456789</div>
+			<p>性别 患病时长 地点</p>
+			<p>疾病：情绪障碍</p>
+			<p>内容：xxxxxxxxxxxxx</p>
+			<div class="col-xs-3 repliedMark">已回复</div>
+		</div>
+		<div class="col-xs-12 example_consult">
+			<div class="patNum">病例号：123456789</div>
+			<p>性别 患病时长 地点</p>
+			<p>疾病：情绪障碍</p>
+			<p>内容：xxxxxxxxxxxxx</p>
+			<div class="col-xs-3 replyMark">未回复</div>
+		</div>
+		<div class="col-xs-12 example_consult">
+			<div class="patNum">病例号：123456789</div>
+			<p>性别 患病时长 地点</p>
+			<p>疾病：情绪障碍</p>
+			<p>内容：xxxxxxxxxxxxx</p>
+			<div class="col-xs-3 repliedMark">已回复</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

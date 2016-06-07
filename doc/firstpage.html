@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- 屏幕自适应 -->
+	<title>心理家_医生版首页</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap\css\bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css\firstpage.css">
+	<link rel="stylesheet" href="font-awesome\css\font-awesome.min.css">
+	<link href="css/post.css" rel="stylesheet" type="text/css"/> 
+    <link href="css/me.css" rel="stylesheet" type="text/css"/> 
+    
+    <script type="text/javascript" src="js\jquery-1.12.2.js"></script>
+    <script type="text/javascript" src="bootstrap\js\bootstrap.js"></script>
+    <script type="text/javascript" src="js\page.js"></script>
+     <script src="js/post.js"></script>  
+    <script src="js/me.js"></script>  
+</head>
+<body>
+<!-- 底部导航条 -->
+<div class="container-fluid">
+	<div class="row nav">
+		<div class="col-xs-3 page1">
+			<div>
+				<i class="fa fa-home"></i>
+			</div>
+			<p>诊疗</p>
+		</div>
+		<div class="col-xs-3 page2">
+			<div>
+				<i class="fa fa-send"></i>
+			</div>
+			<p>推送</p>
+		</div>
+		<div class="col-xs-3 page3">
+			<div>
+				<i class="fa fa-hotel"></i>
+			</div>
+			<p>患者</p>
+		</div>
+		<div class="col-xs-3 page4">
+			<div>
+				<i class="fa fa-user"></i>
+			</div>
+			<p>个人</p>
+		</div>
+	</div>
+</div>
+
+<!-- 首页：在线诊疗 -->
+<div class="container-fluid firstPage">
+<!-- 医生信息顶栏 -->
+<div class="row doctor">
+    <!-- 医生头像 -->
+	<div class="col-xs-3 dt_head">
+		<img src="pic\doctorHead.jpg" id="dthead">
+	</div>
+	<!-- 基本信息 -->
+	<div class="col-xs-7 dt_message">
+		<div class="row">
+			<div class="col-xs-4 dt_name">王重阳</div>
+			<div class="col-xs-5 dt_status">继续接单</div>
+			<div class="col-xs-12 dt_introduction">个人专业信息简介,我是医生我是医生</div>
+			<div class="col-xs-12 dt_patientNum">患者数>>123</div>
+		</div>
+	</div>
+	<!-- 设置状态 -->
+	<div class="col-xs-2 set">设置</div>
+	<!-- 消息提醒 -->
+	<div class="col-xs-2 dt_sysMes">
+		<img src="pic\sysMes.png">
+	</div>
+
+</div>
+<!-- 功能栏 -->
+<div class="row dt_function">
+	<div class="col-xs-3 funcType">
+		<img src="pic\computer.png" class="funcPic">
+		<p>网络咨询</p>
+	</div>
+	<div class="col-xs-3 funcType">
+		<img src="pic\patient.png" class="funcPic">
+		<p>患者报到</p>
+	</div>
+	<div class="col-xs-3 funcType">
+		<img src="pic\achieve.png" class="funcPic">
+		<p>执医成就</p>
+	</div>
+	<div class="col-xs-3 funcType">
+		<img src="pic\dealing.png" class="funcPic">
+		<p>正在处理</p>
+	</div>
+</div>
+<!-- 执医成就 -->
+<div class="row dt_achieve">
+    <div id="closeAch">
+    	<img src="pic\close.png">
+    </div>
+	<div class="col-xs-12" id="dt_ach">
+		<div class="row">
+			<div class="col-xs-12" id="ach_title">
+			执医成就</div>
+			<div class="col-xs-6 dt_eva">
+				<div id="grade">4.8</div>
+				<p class="bold_word">患者服务评分</p>
+				<p>患者投票</p>
+                <span>152</span>
+                <p>分布：抑郁</p>
+			</div>
+			<div class="col-xs-6 dt_eva">
+				<img src="pic\star.png">
+				<p class="bold_word">诊后服务星</p>
+				<p>已诊疗患者</p>
+                <span>6354</span>
+                <p>分布：情绪障碍</p>
+			</div>
+			<div class="col-xs-6 dt_eva" style="border-right:1px #ccc solid;">
+				<p class="bold_word">总访问</p>
+				<span>664545</span>
+			</div>
+			<div class="col-xs-6 dt_eva">
+				<p class="bold_word">报到患者</p>
+				<span>5907</span>
+			</div>
+			<div class="col-xs-6 dt_eva" style="border-right:1px #ccc solid;">
+				<p class="bold_word">总患者</p>
+				<span>8612</span>
+			</div>
+			<div class="col-xs-6 dt_eva">
+				<p class="bold_word">感谢信</p>
+				<span>264</span>
+			</div>
+			<div class="col-xs-6 dt_eva" style="border-right:1px #ccc solid;">
+				<p class="bold_word">心意礼物</p>
+				<span>1523</span>
+			</div>
+			<div class="col-xs-6 dt_eva">
+				<p class="bold_word">总文章</p>
+				<span>294</span>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 患者报道 -->
+<div class="row dt_patSign">
+	<div class="col-xs-12" style="border-bottom:1px #ccc solid;">签到患者</div>
+	<div class="col-xs-12 dt_signPat">
+		<span>病例号：123456789</span>
+		<!-- <div class="col-xs-2"> -->
+		<img src="pic\gj1.png" class="dt_goodjob">
+		<!-- </div> -->
+		<div class="dt_knowMore">了解更多</div>
+	</div>
+	<div class="col-xs-12 dt_signPat">
+		<span>病例号：123456789</span>
+		<!-- <div class="col-xs-2"> -->
+		<img src="pic\gj1.png" class="dt_goodjob">
+		<!-- </div> -->
+		<div class="dt_knowMore">了解更多</div>
+	</div>
+	<div class="col-xs-12 dt_signPat">
+		<span>病例号：123456789</span>
+		<!-- <div class="col-xs-2"> -->
+		<img src="pic\gj1.png" class="dt_goodjob">
+		<!-- </div> -->
+		<div class="dt_knowMore">了解更多</div>
+	</div>
+	<div class="col-xs-12 dt_signPat">
+		<span>病例号：123456789</span>
+		<!-- <div class="col-xs-2"> -->
+		<img src="pic\gj1.png" class="dt_goodjob">
+		<!-- </div> -->
+		<div class="dt_knowMore">了解更多</div>
+	</div>
+	<div class="col-xs-12 dt_signPat">
+		<span>病例号：123456789</span>
+		<!-- <div class="col-xs-2"> -->
+		<img src="pic\gj1.png" class="dt_goodjob">
+		<!-- </div> -->
+		<div class="dt_knowMore">了解更多</div>
+	</div>
+</div>
+<!-- 正在处理 -->
+<div class="row dt_dealing">
+	<div class="col-xs-12" style="border-bottom:1px #ccc solid;">正在处理</div>
+	<!-- 患者记录 -->
+	<div class="col-xs-12 patientlist">
+		<!-- 患者1 -->
+		<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+
+	<div class="col-xs-12 patientlist">
+		<!-- 患者1 -->
+		<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+
+	<div class="col-xs-12 patientlist">
+		<!-- 患者1 -->
+		<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+
+	<div class="col-xs-12 patientlist">
+		<!-- 患者1 -->
+		<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>	
+</div>
+<!-- set面板 -->
+<div class="clDiv"></div><!-- 点击消失动作层 -->
+<div class="setDiv">
+	<div id="start">继续接单</div>
+	<div id="stop">不再接单</div>
+</div>
+</div>
+<!-- 推送消息 -->
+<div class="container-fluid secondPage">
+       <!-- head -->
+       <div class="row post-head">
+         <div class="col-xs-12 post-head-name">推送</div>
+       </div>
+       <div class="row post-head post-head2">
+         <div class="col-xs-10"></div>
+         <div class="col-xs-2 post-font-message"><i class="fa fa-user"></i></div>
+       </div>
+       <div class="row post-head-stance">
+         <div class="col-xs-12 head-name">推送</div>
+       </div>
+
+<!-- 小知识 -->
+       <div class="row post-knowlege">
+          <div class="col-xs-10 post-knowlege-title">小知识</div>
+          <div class="col-xs-2 post-knowlege-more">更多</div>
+          <div class="col-xs-12 post-knowlege-ctx">
+            <div class="col-xs-12 post-knowlege-ctx-title">易怒的人伤口好得慢!</div>
+            <div class="col-xs-12 post-knowlege-ctx-word">美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长,美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长。心理学研究表明，人体内有各种生物钟，并有各自的循环周期。如智力生物钟为33天一循环，情绪生物钟为28天一循环，体力生物钟为23天一循环等。所以人有时感觉情绪波动和心情烦躁是很正常的。虽然我们不能改变自己的生物节律，但可以通过调节缓解不良情绪，缩短情绪波动的时间，减少心情烦躁带来的不良影响。</div>
+            <div class="col-xs-6 post-knowlege-ctx-more">点击展开全文</div>
+          </div>
+          <div class="col-xs-12 post-knowlege-ctx">
+            <div class="col-xs-12 post-knowlege-ctx-title">易怒的人伤口好得慢!</div>
+            <div class="col-xs-12 post-knowlege-ctx-word">美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长,美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长。心理学研究表明，人体内有各种生物钟，并有各自的循环周期。如智力生物钟为33天一循环，情绪生物钟为28天一循环，体力生物钟为23天一循环等。所以人有时感觉情绪波动和心情烦躁是很正常的。虽然我们不能改变自己的生物节律，但可以通过调节缓解不良情绪，缩短情绪波动的时间，减少心情烦躁带来的不良影响。</div>
+            <div class="col-xs-6 post-knowlege-ctx-more">点击展开全文</div>
+          </div>
+       </div>
+
+<!-- 精华帖 -->
+     <div class="row post-parpost">
+       <div class="col-xs-10 post-parpost-title">精华帖</div>
+       <div class="col-xs-2 post-parpost-more">更多</div>
+       <div class="col-xs-12 post-parpost-ctx-box">
+         <div class="col-xs-12 post-parpost-ctx">
+           <div class="col-xs-12 post-parpost-ctx-title">这病怎么治</div>
+           <div class="col-xs-12 post-parpost-question">问题：易怒</div>
+           <div class="col-xs-12 post-parpost-description">描述：美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长,美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长</div>
+           <div class="col-xs-12 post-parpost-person-bigbox">
+             <div class="col-xs-12 post-parpost-person">
+               <div class="col-xs-12 post-parpost-person-box"><img src="pic/person-1.jpg" class="post-parpost-person-photo"/><span class="post-parpost-person-name">XXX</span><span class="post-parpost-person-position">医生</span></div>
+               <div class="col-xs-12 post-parpost-person-comment">美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长,美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长</div>
+             </div>
+             <div class="col-xs-12 post-parpost-person">
+                 <div class="col-xs-12 post-parpost-person-box"><img src="pic/person-1.jpg" class="post-parpost-person-photo"/><span class="post-parpost-person-name">XXX</span><span class="post-parpost-person-position">医生</span></div>
+                 <div class="col-xs-12 post-parpost-person-comment">美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长,美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长</div>
+             </div>
+           </div>
+         </div>
+         <div class="col-xs-12 post-parpost-ctx-more">点击展开全文</div>
+         <div class="col-xs-12 post-parpost-comment">
+              <div class="col-xs-4"></div>
+              <div class="col-xs-6 post-parpost-comment-ctx">
+                <div class="col-xs-6 post-parpost-comment-good"><i class="fa fa-heart-o"></i>赞</div>
+                <div class="col-xs-6 post-parpost-comment-com"><i class="fa fa-comment-o"></i>评论</div>
+              </div>
+              <div class="post-parpost-comment-font">
+                <div class="post-parpost-comment-box"><i class="fa fa-ellipsis-h"></i></div>
+                <div class="post-parpost-comment-triangle"></div>
+               </div>
+           </div>
+           <div class="col-xs-12 post-answer-enter">
+                <div class="col-xs-7"></div>
+                <div class="col-xs-3 post-answer-enter-font"><div class="post-answer-enter-fontup"></div></div>
+                <div class="col-xs-2"></div>
+                <div class="col-xs-12 post-answer-ctx">
+                   <div class="col-xs-8 post-answer-enter-box">
+                     <input type="text" class="post-answer-enter-text"/>
+                   </div>
+                   <div class="col-xs-4"><div class="col-xs-12 post-answer-enter-btn">评论</div></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 post-parpost-ctx-box">
+         <div class="col-xs-12 post-parpost-ctx">
+           <div class="col-xs-12 post-parpost-ctx-title">这病怎么治</div>
+           <div class="col-xs-12 post-parpost-question">问题：易怒</div>
+           <div class="col-xs-12 post-parpost-description">描述：美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长,美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长</div>
+           <div class="col-xs-12 post-parpost-person-bigbox">
+             <div class="col-xs-12 post-parpost-person">
+               <div class="col-xs-12 post-parpost-person-box"><img src="pic/person-2.jpg" class="post-parpost-person-photo"/><span class="post-parpost-person-name">XXX</span><span class="post-parpost-person-position">医生</span></div>
+               <div class="col-xs-12 post-parpost-person-comment">美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长,美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长</div>
+             </div>
+             <div class="col-xs-12 post-parpost-person">
+                 <div class="col-xs-12 post-parpost-person-box"><img src="pic/person-1.jpg" class="post-parpost-person-photo"/><span class="post-parpost-person-name">XXX</span><span class="post-parpost-person-position">医生</span></div>
+                 <div class="col-xs-12 post-parpost-person-comment">美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长,美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长</div>
+             </div>
+           </div>
+         </div>
+         <div class="col-xs-12 post-parpost-ctx-more">点击展开全文</div>
+         <div class="col-xs-12 post-parpost-comment">
+              <div class="col-xs-4"></div>
+              <div class="col-xs-6 post-parpost-comment-ctx">
+                <div class="col-xs-6 post-parpost-comment-good"><i class="fa fa-heart-o"></i>赞</div>
+                <div class="col-xs-6 post-parpost-comment-com"><i class="fa fa-comment-o"></i>评论</div>
+              </div>
+              <div class="post-parpost-comment-font">
+                <div class="post-parpost-comment-box"><i class="fa fa-ellipsis-h"></i></div>
+                <div class="post-parpost-comment-triangle"></div>
+               </div>
+           </div>
+           <div class="col-xs-12 post-answer-enter">
+                <div class="col-xs-7"></div>
+                <div class="col-xs-3 post-answer-enter-font"><div class="post-answer-enter-fontup"></div></div>
+                <div class="col-xs-2"></div>
+                <div class="col-xs-12 post-answer-ctx">
+                   <div class="col-xs-8 post-answer-enter-box">
+                     <input type="text" class="post-answer-enter-text"/>
+                   </div>
+                   <div class="col-xs-4"><div class="col-xs-12 post-answer-enter-btn">评论</div></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 post-parpost-ctx-box">
+         <div class="col-xs-12 post-parpost-ctx">
+           <div class="col-xs-12 post-parpost-ctx-title">这病怎么治</div>
+           <div class="col-xs-12 post-parpost-question">问题：易怒</div>
+           <div class="col-xs-12 post-parpost-description">描述：美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长,美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长</div>
+           <div class="col-xs-12 post-parpost-person-bigbox">
+             <div class="col-xs-12 post-parpost-person">
+               <div class="col-xs-12 post-parpost-person-box"><img src="pic/person-1.jpg" class="post-parpost-person-photo"/><span class="post-parpost-person-name">XXX</span><span class="post-parpost-person-position">医生</span></div>
+               <div class="col-xs-12 post-parpost-person-comment">美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长,美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长</div>
+             </div>
+             <div class="col-xs-12 post-parpost-person">
+                 <div class="col-xs-12 post-parpost-person-box"><img src="pic/person-1.jpg" class="post-parpost-person-photo"/><span class="post-parpost-person-name">XXX</span><span class="post-parpost-person-position">医生</span></div>
+                 <div class="col-xs-12 post-parpost-person-comment">美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长,美国研究人员研究发现，易怒的人伤口愈合所需时间会比较长</div>
+             </div>
+           </div>
+         </div>
+         <div class="col-xs-12 post-parpost-ctx-more">点击展开全文</div>
+         <div class="col-xs-12 post-parpost-comment">
+              <div class="col-xs-4"></div>
+              <div class="col-xs-6 post-parpost-comment-ctx">
+                <div class="col-xs-6 post-parpost-comment-good"><i class="fa fa-heart-o"></i>赞</div>
+                <div class="col-xs-6 post-parpost-comment-com"><i class="fa fa-comment-o"></i>评论</div>
+              </div>
+              <div class="post-parpost-comment-font">
+                <div class="post-parpost-comment-box"><i class="fa fa-ellipsis-h"></i></div>
+                <div class="post-parpost-comment-triangle"></div>
+               </div>
+           </div>
+           <div class="col-xs-12 post-answer-enter">
+                <div class="col-xs-7"></div>
+                <div class="col-xs-3 post-answer-enter-font"><div class="post-answer-enter-fontup"></div></div>
+                <div class="col-xs-2"></div>
+                <div class="col-xs-12 post-answer-ctx">
+                   <div class="col-xs-8 post-answer-enter-box">
+                     <input type="text" class="post-answer-enter-text"/>
+                   </div>
+                   <div class="col-xs-4"><div class="col-xs-12 post-answer-enter-btn">评论</div></div>
+                </div>
+            </div>
+        </div>
+         <div class="col-xs-12 post-parpost-answer-none"><span class="post-parpost-answer-none-ctx">你未填写任何内容</span></div>
+         <div class="col-xs-12 post-parpost-answer-succeed"><span class="post-parpost-answer-succeed-ctx">发送成功</span></div>
+       </div>
+</div>
+<!-- 第三页 我的患者 -->
+<div class="container-fluid thirdPage">
+<!-- 患者 -->
+<div class="row patientList1_accepted">
+	<!-- 患者记录 -->
+	<div class="col-xs-12" style="height:10%;background-color:#fff;">
+	</div>
+	<!-- </div> -->
+    
+     <div class="col-xs-12 psearch">
+     	<div id="patientInput">
+     		<i class="fa fa-search"></i>
+     	</div>
+     </div>
+     <div class="col-xs-12 psearch">
+     	<div id="patientInput">
+     		<i class="fa fa-search"></i>
+     		搜索
+     	</div>
+     </div>
+
+     <div class="col-xs-12 psearch">
+     	<div id="patientInput">
+     		<i class="fa fa-search"></i>
+     		<!-- 搜索 -->
+     		<input type="text" value="搜索" id="patientSearchIp" onclick="this.value=''">
+     	</div>
+     </div>
+	<div class="col-xs-12">
+		<!-- 患者2 -->
+		<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+	<div class="col-xs-12">
+		<!-- 患者3 -->
+		<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+	<div class="col-xs-12">
+		<!-- 患者3 -->
+		<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+	<div class="col-xs-12">
+		<!-- 患者3 -->
+				<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+	<div class="col-xs-12">
+		<!-- 患者3 -->
+		<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+	<div class="col-xs-12">
+		<!-- 患者3 -->
+		<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+	<div class="col-xs-12">
+		<!-- 患者3 -->
+		<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+	<div class="col-xs-12">
+		<!-- 患者3 -->
+				<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+	<div class="col-xs-12">
+		<!-- 患者3 -->
+				<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+	<div class="col-xs-12">
+		<!-- 患者3 -->
+				<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+	<div class="col-xs-12">
+		<!-- 患者3 -->
+				<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+</div>
+<div class="row patientList2_unaccepted">
+	<!-- 患者记录 -->
+	<div class="col-xs-12" style="height:10%;background-color:#fff;">
+	</div>
+	     <div class="col-xs-12 psearch">
+     	<div id="patientInput">
+     		<i class="fa fa-search"></i>
+     	</div>
+     </div>
+     <div class="col-xs-12 psearch">
+     	<div id="patientInput">
+     		<i class="fa fa-search"></i>
+     		搜索
+     	</div>
+     </div>
+
+     <div class="col-xs-12 psearch">
+     	<div id="patientInput">
+     		<i class="fa fa-search"></i>
+     		<!-- 搜索 -->
+     		<input type="text" value="搜索" id="patientSearchIp" onclick="this.value=''">
+     	</div>
+     </div>
+
+	<div class="col-xs-12">
+		<!-- 患者2 -->
+				<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+	<div class="col-xs-12">
+		<!-- 患者3 -->
+				<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+	<div class="col-xs-12">
+		<!-- 患者3 -->
+				<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+	<div class="col-xs-12">
+		<!-- 患者3 -->
+				<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+	<div class="col-xs-12">
+		<!-- 患者3 -->
+				<a href="chatPage.html">
+		<div class="row" id="patient1">
+	        <div class="col-xs-3">
+		        <img src="pic\1.jpg">
+	        </div>
+	        <div class="col-xs-7" style="margin-top:5px;">
+	        	<div>123456789</div>
+	        	<div class="information">消息,我不开心,我不开心,我不开心</div>
+	        </div>
+	        <div class="col-xs-2">
+	            <div class="time">12:03</div>
+	        	<div class="tip"></div>
+	        </div>	
+		</div>
+		</a>
+	</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+<!-- 分类顶栏 -->
+<div class="row type">
+     <div class="col-xs-2"></div>
+     <!-- 患者分类 -->
+     	<div class="col-xs-4 accepted">
+     		重点关注
+     	</div>
+     	<div class="col-xs-4 un-accepted">
+     		绑定关注
+     	</div>
+     <div class="col-xs-2"></div>
+</div>
+</div>
+
+<!-- 个人信息 -->
+<div class="container-fluid forthPage">
+       <!-- 头像，姓名 -->
+       <div class="row me-head">
+          <div class="col-xs-1"></div>
+          <div class="col-xs-3 me-head-pic"><img src="pic/person-1.jpg" id="head-portrait"/></div>
+          <div class="col-xs-6 me-name">XXX<p id="me-position">主任医师&nbsp教授</p></div>
+          <div class="col-xs-1 me-head-font"><i class="fa fa-cog fa-lg"></i></div>
+       </div>
+       <!-- 统计栏 -->
+       <div class="row static">
+          <div class="col-xs-3 static-send">
+            <p class="static-send-num">2</p>
+            <p>推送</p>
+          </div>
+          <div class="col-xs-3 static-patient">
+            <p class="static-patient-num">20</p>
+            <p>患者</p>
+          </div>
+          <div class="col-xs-3 static-attention">
+            <p class="static-attention-num">500</p>
+            <p>咨询</p>
+          </div>
+          <div class="col-xs-3 static-cure">
+            <p class="static-cure-num">10</p>
+            <p>成功</p>
+          </div>
+        </div>
+        <!-- 功能 -->
+       <div class="row selfunction-impatient">
+         <div class="col-xs-2 selfunction-front"><div class="selfunction-front-font"><i class="fa fa-eye"></i></div></div>
+         <div class="col-xs-8 selfunction-name">重要患者</div>
+         <div class="col-xs-2 selfunction-right"><i class="fa fa-angle-right fa-lg"></i></div>
+       </div>
+       <div class="row selfunction-evaulate">
+         <div class="col-xs-2 selfunction-front"><div class="selfunction-front-font"><i class="fa fa-commenting-o"></i></div></div>
+         <div class="col-xs-8 selfunction-name">患者评价</div>
+         <div class="col-xs-2 selfunction-right"><i class="fa fa-angle-right fa-lg"></i></div>
+       </div>
+       <div class="row selfunction-collect par-self">
+         <div class="col-xs-2 selfunction-front"><div class="selfunction-front-font"><i class="fa fa-cube"></i></div></div>
+         <div class="col-xs-8 selfunction-name">我的收藏</div>
+         <div class="col-xs-2 selfunction-right"><i class="fa fa-angle-right fa-lg"></i></div>
+       </div>
+       <div class="row selfunction-draft">
+         <div class="col-xs-2 selfunction-front"><div class="selfunction-front-font"><i class="fa fa-file"></i></div></div>
+         <div class="col-xs-8 selfunction-name">我的草稿</div>
+         <div class="col-xs-2 selfunction-right"><i class="fa fa-angle-right fa-lg"></i></div>
+       </div>
+       <div class="row selfunction-outime par-self">
+         <div class="col-xs-2 selfunction-front"><div class="selfunction-front-font"><i class="fa fa-calendar-check-o"></i></div></div>
+         <div class="col-xs-8 selfunction-name">出诊时间</div>
+         <div class="col-xs-2 selfunction-right"><i class="fa fa-angle-right fa-lg"></i></div>
+       </div>
+       <div class="row selfunction-test">
+         <div class="col-xs-2 selfunction-front"><div class="selfunction-front-font"><i class="fa fa-tasks"></i></div></div>
+         <div class="col-xs-8 selfunction-name">测试题库</div>
+         <div class="col-xs-2 selfunction-right"><i class="fa fa-angle-right fa-lg"></i></div>
+       </div>
+       <div class="row selfunction-mycard par-self">
+         <div class="col-xs-2 selfunction-front"><div class="selfunction-front-font"><i class="fa fa-cc-discover"></i></div></div>
+         <div class="col-xs-8 selfunction-name">我的名片</div>
+         <div class="col-xs-2 selfunction-right"><i class="fa fa-angle-right fa-lg"></i></div>
+       </div>
+   	 </div>
+</body>
+</html>

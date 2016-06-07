@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>出诊时间</title>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="css/outime.css" rel="stylesheet" type="text/css"/> 
+
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/outime.js"></script>  
+   </head>
+   <body id="overall">
+   	 <div class="container-fluid outime-page1">
+       <!-- head -->
+       <div class="row outime-head">
+         <div class="col-xs-12 outime-head-name">出诊详情</div>
+       </div>
+       <div class="row outime-head outime-head2">
+         <div class="col-xs-2 outime-right"><i class="fa fa-chevron-left"></i>
+         </div>
+         <div class="col-xs-10 outime-edit">编辑</div>
+       </div>
+       <div class="row outime-head-stance">
+         <div class="col-xs-12 outime-head-name">出诊详情</div>
+       </div>
+       <div class="row outime-remind">
+         <div class="col-xs-12 outime-remind-title">出诊提示</div>
+         <div class="col-xs-12 outime-remind-ctx">星期二、五、六上午专家门诊。挂号费10.5元。联系电话12345678。</div>
+       </div>
+       <div class="row outime-time">
+         <div class="col-xs-12 outime-time-title">出诊时间</div>
+         <div class="col-xs-12 outime-time-ctx outime-time-edit-page">
+            <div class="col-xs-12 outime-time-ctx-1">
+             <div class="col-xs-4 outime-time-plan outime-time-plan-sure">周二下午</div>
+             <div class="col-xs-4 outime-time-type outime-time-type-sure">专家门诊</div>
+             <div class="col-xs-4 outime-time-money outime-time-money-sure">5元/次</div>
+            </div>
+         </div>
+       </div>
+       <div class="row outime-address">
+         <div class="col-xs-12 outime-address-title">医院地址</div>
+         <div class="col-xs-12 outime-address-ctx">浙江省杭州市第七人民医院</div>
+       </div>
+   	 </div>
+     <div class="container-fluid outime-page2">
+       <!-- head -->
+       <div class="row outime-head">
+         <div class="col-xs-12 outime-head-name">出诊编辑</div>
+       </div>
+       <div class="row outime-head outime-head2">
+         <div class="col-xs-12 outime-finish">完成</div>
+       </div>
+       <div class="row outime-head-stance">
+         <div class="col-xs-12 outime-head-name">出诊编辑</div>
+       </div>
+       <div class="row outime-remind">
+         <div class="col-xs-12 outime-remind-title">出诊提示</div>
+         <div class="col-xs-12 outime-remind-ctx">星期二、五、六上午专家门诊。挂号费10.5元。联系电话12345678。</div>
+       </div>
+       <div class="row outime-time">
+         <div class="col-xs-10 outime-time-title">出诊时间</div>
+         <div class="col-xs-2 outime-time-add"><i class="fa fa-plus"></i></div>
+         <div class="col-xs-12 outime-time-ctx outime-time-finish-page">
+            <div class="col-xs-12 outime-time-ctx-1">
+             <div class="col-xs-4 outime-time-plan">
+                <select class="outime-time-option">
+                  <option value='outime-time-op1-1' selected="true">周一上午</option> 
+                  <option value='outime-time-op1-2'>周一下午</option> 
+                  <option value='outime-time-op2-1'>周二上午</option>
+                  <option value='outime-time-op2-2'>周二下午</option> 
+                  <option value='outime-time-op3-1'>周三上午</option> 
+                  <option value='outime-time-op3-2'>周三下午</option> 
+                </select>
+             </div>
+             <div class="col-xs-4 outime-time-type">
+                <select class="outime-time-type-option">
+                  <option value='outime-time-type-op1' selected="true">普通门诊</option> 
+                  <option value='outime-time-type-op2'>专家门诊</option> 
+                </select>
+             </div>
+             <div class="col-xs-4 outime-time-money">
+                <select class="outime-time-money-option">
+                  <option value='outime-time-money-op1' selected="true">5元/次</option> 
+                  <option value='outime-time-money-op2'>10元/次</option> 
+                  <option value='outime-time-money-op3'>15元/次</option>
+                </select>
+             </div>
+            </div>
+         </div>
+       </div>
+       <div class="row outime-address">
+         <div class="col-xs-12 outime-address-title">医院地址</div>
+         <div class="col-xs-12 outime-address-ctx">浙江省杭州市第七人民医院</div>
+       </div>
+     </div>
+   </body>
