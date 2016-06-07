@@ -20,6 +20,9 @@ function goodPostctxskip(){
             isgood=0;
         }
     });
+    $(".good-post-ctx-font-star").click(function(){
+        $(this).css("color","red");
+    });
     $(".good-post-ctx-answer-enter").click(function(){
         $(this).css("background-color","#5daefe");
         setTimeout(function(){
