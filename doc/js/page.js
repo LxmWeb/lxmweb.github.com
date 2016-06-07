@@ -122,7 +122,6 @@ function page3appear(){
 	    $('.secondPage').hide();
 	    $('.page2').css('color','#000');
 	    $('.thirdPage').show();
-            //$('.patientList2_unaccepted').hide();
 	    $('.type').show();
 	    $('.page3').css('color','#1E90FF');
 	    $('.forthPage').hide();
@@ -481,6 +480,7 @@ function testChoose(){
 $(chatKnowMore);
 
 function chatKnowMore(){
+    $('#ct_giftGive').hide();
 	$('.moreContent').hide();
 	$('#moreTip').hide();
 	var isShow=false;
@@ -498,12 +498,22 @@ function chatKnowMore(){
 		   $('#moreTip').show();
 		   }
 		   if($(this).children().text()=="数据统计"){
-		   // $('#moreTip').text("发送请求成功，等待对方用户处理！");
 		   $('#netreply_Consult').show();
+		   $('.ct_present').click(function() {
+		   	$('#ct_giftGive').show();
+		   	setTimeout(function(){
+		   	$('#netreply_Consult').hide();
+           },1000);
+		   });
 		   }
 		   if($(this).children().text()=="聊天背景"){
-		   $('#moreTip').text("此功能尚未实现！");
-		   $('#moreTip').show();
+		   $('.dt_achieve').show();
+		   $('.bgPic').click(function() {
+		   	var bg=$(this).attr('src');
+		   	// alert(bg);
+		   	$('.chatContent').css("background-image","url("+bg+")");
+		   	$('.dt_achieve').hide();
+		   });
 		   }
 		   if($(this).children().text()=="聊天记录"){
 		   $('#moreTip').text("此功能尚未实现！");
