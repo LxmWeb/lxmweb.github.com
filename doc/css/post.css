@@ -1,8 +1,8 @@
 .post-head{
-	font: 20px "微软雅黑";
+	font: 18px "微软雅黑";
 	background-color: #1E90FF;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	text-align: center;
 	position: fixed;
 	top: 0;
@@ -23,8 +23,8 @@
 .post-head-stance{
 	font: 20px "微软雅黑";
 	background-color: #1E90FF;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	text-align: center;
 }
 .post-knowlege,.post-parpost{

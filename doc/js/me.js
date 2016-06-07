@@ -1,6 +1,6 @@
 $(selfskip);
 function selfskip(){
-	$(".me-head").click(function(){
+	$(".me-head-intro").click(function(){
         window.location.href="introduction.html";
 	});
 	$(".me-head-font").click(function(){
