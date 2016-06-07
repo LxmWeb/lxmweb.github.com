@@ -1,4 +1,5 @@
 $(goodPostctxskip);
+var isgood=0,postcom=0,personcom=0,commentindex;
 function goodPostctxskip(){
     $(".good-post-ctx-answer-none").hide();
     $(".good-post-ctx-answer-succeed").hide();
@@ -7,7 +8,6 @@ function goodPostctxskip(){
 	$(".good-post-ctx-font-left").click(function(){
        window.location.href="good-post.html";
     });
-    var isgood=0;
     $(".good-post-ctx-person-font-love").click(function(){
         if(isgood==0){
             $(this).css("color","red");
@@ -38,9 +38,11 @@ function goodPostctxskip(){
         else{
             if(postcom==1){
                $(".good-post-ctx-person-comment-whole").append("<div class=\"col-xs-12 good-post-ctx-person\"><div class=\"col-xs-12 good-post-ctx-person-box\"><img src=\"pic/person-2.jpg\" class=\"good-post-ctx-person-photo\"/><span class=\"good-post-ctx-person-name\">XXX</span><span class=\"good-post-ctx-person-position\">医生</span></div><div class=\"col-xs-12 good-post-ctx-person-comment\">"+$(".good-post-ctx-answer-enter-text").val()+"</div><div class=\"col-xs-12 good-post-ctx-person-remark\"><div class=\"col-xs-5 good-post-ctx-person-time\">5-16</div><div class=\"col-xs-3 good-post-ctx-person-font-love\"><i class=\"fa fa-heart-o fa-lg\"></i>赞</div><div class=\"col-xs-4 good-post-ctx-person-font-comment\"><i class=\"fa fa-commenting-o fa-lg\"></i>评论</div></div></div>")
+               bindclick();
             }
             if(personcom==1){
-               $("good-post-ctx-person-comment-box").append("<div class=\"col-xs-12\"><div class=\"col-xs-12 good-post-ctx-person-box\"><img src=\"pic/person-1.jpg\" class=\"good-post-ctx-person-photo\"/><span class=\"good-post-ctx-person-name\">XXX</span><span class=\"good-post-ctx-person-position\">医生</span></div><div class=\"col-xs-12 good-post-ctx-person-comment\">"+$(".good-post-ctx-answer-enter-text").val()+"</div></div>")
+                //console.log("1");
+               $(".good-post-ctx-person-comment-box").eq(commentindex).append("<div class=\"col-xs-12 good-post-ctx-other-comment\"><img src=\"pic/person-1.jpg\" class=\"good-post-ctx-other-comment-photo\"/><span class=\"good-post-ctx-other-comment-name\">XXX</span><span class=\"good-post-ctx-other-comment-position\">医生</span></div><div class=\"col-xs-12 good-post-ctx-other-comment-comment\">"+$(".good-post-ctx-answer-enter-text").val()+"</div>");
             }
             $(".good-post-ctx-answer-succeed").show();
             setTimeout(function(){
@@ -49,7 +51,6 @@ function goodPostctxskip(){
             $(".good-post-ctx-answer-enter-text").val("");
         }
     });
-    var postcom=0,personcom=0;
     $(".good-post-ctx-comment").click(function(){
         if(personcom==0){
             $(".good-post-ctx-answer-box").toggle();
@@ -64,6 +65,7 @@ function goodPostctxskip(){
     $(".good-post-ctx-person-font-comment").click(function(){
         if(postcom==0){
            $(".good-post-ctx-answer-box").toggle();
+           commentindex=$(".good-post-ctx-person-font-comment").index(this);
             if(personcom==0){
               personcom=1;
             }
@@ -107,5 +109,57 @@ function goodPostctxskip(){
         setTimeout(function(){
             $(".good-post-ctx-answer-succeed").hide();
         },500);
+    });
+}
+function bindclick(){
+    $(".good-post-ctx-person-font-love").bind("click",function(){
+        if(isgood==0){
+            $(this).css("color","red");
+            $(this).find('.good-post-ctx-person-font-love-word').text("已赞");
+            isgood=1;
+        }
+        else{
+            $(this).css("color","black");
+            $(this).find('.good-post-ctx-person-font-love-word').text("赞");
+            isgood=0;
+        }
+    });
+    $(".good-post-ctx-person-font-comment").bind("click",function(){
+        if(postcom==0){
+           $(".good-post-ctx-answer-box").toggle();
+           commentindex=$(".good-post-ctx-person-font-comment").index(this);
+            if(personcom==0){
+              personcom=1;
+            }
+            else{
+              personcom=0;
+            }
+        }
+    });
+    $(".good-post-ctx-answer-enter").bind("click",function(){
+        $(this).css("background-color","#5daefe");
+        setTimeout(function(){
+            $(".good-post-ctx-answer-enter").css("background-color","#1E90FF");
+        },300);
+        if($(".good-post-ctx-answer-enter-text").val()==""){
+            $(".good-post-ctx-answer-none").show();
+            setTimeout(function(){
+               $(".good-post-ctx-answer-none").hide();
+            },500);
+        }
+        else{
+            if(postcom==1){
+               $(".good-post-ctx-person-comment-whole").append("<div class=\"col-xs-12 good-post-ctx-person\"><div class=\"col-xs-12 good-post-ctx-person-box\"><img src=\"pic/person-2.jpg\" class=\"good-post-ctx-person-photo\"/><span class=\"good-post-ctx-person-name\">XXX</span><span class=\"good-post-ctx-person-position\">医生</span></div><div class=\"col-xs-12 good-post-ctx-person-comment\">"+$(".good-post-ctx-answer-enter-text").val()+"</div><div class=\"col-xs-12 good-post-ctx-person-remark\"><div class=\"col-xs-5 good-post-ctx-person-time\">5-16</div><div class=\"col-xs-3 good-post-ctx-person-font-love\"><i class=\"fa fa-heart-o fa-lg\"></i>赞</div><div class=\"col-xs-4 good-post-ctx-person-font-comment\"><i class=\"fa fa-commenting-o fa-lg\"></i>评论</div></div></div>")
+               bindclick();
+            }
+            if(personcom==1){
+               $(".good-post-ctx-person-comment-box").eq(commentindex).append("<div class=\"col-xs-12 good-post-ctx-other-comment\"><img src=\"pic/person-1.jpg\" class=\"good-post-ctx-other-comment-photo\"/><span class=\"good-post-ctx-other-comment-name\">XXX</span><span class=\"good-post-ctx-other-comment-position\">医生</span></div><div class=\"col-xs-12 good-post-ctx-other-comment-comment\">"+$(".good-post-ctx-answer-enter-text").val()+"</div>");
+            }
+            $(".good-post-ctx-answer-succeed").show();
+            setTimeout(function(){
+               $(".good-post-ctx-answer-succeed").hide();
+            },500);
+            $(".good-post-ctx-answer-enter-text").val("");
+        }
     });
 }

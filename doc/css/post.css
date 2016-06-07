@@ -33,7 +33,7 @@
 	border-top: 7px solid #DCDCDC;
 }
 .post-knowlege-title,.post-parpost-title{
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bolder;
 	padding-bottom: 10px;
 }
@@ -47,12 +47,12 @@
 	padding-bottom: 10px;
 }
 .post-knowlege-ctx-title{
-	font-weight: bolder;
-	color: gray;
+	font-weight: bold;
+/*	color: gray;*/
 }
 .post-knowlege-ctx-word{
-	font-size: 16px;
-	color: gray;
+	font-size: 14px;
+	/*color: gray;*/
 	height: 50px;
 	overflow:hidden;
 	padding-top: 10px;
@@ -70,6 +70,10 @@
 	padding: 0;
 	padding-top: 10px;
 /*	padding-bottom: 10px;*/
+    font-size: 16px;
+}
+.post-parpost-ctx-font-collect{
+    padding-top: 8px;
 }
 .post-parpost-ctx-title{
 	padding-top: 5px;
@@ -77,8 +81,8 @@
 	font-size: 18px;
 }
 .post-parpost-question{
-	padding-top: 5px;
-	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 5px;
 }
 .post-parpost-person{
 	padding: 0;

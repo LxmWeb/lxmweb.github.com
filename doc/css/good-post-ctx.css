@@ -110,6 +110,31 @@
 	font-size: 16px;
 	padding: 0 20px 0 20px;
 }
+.good-post-ctx-other-comment{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font: 14px "微软雅黑";
+}
+.good-post-ctx-other-comment-photo{
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+}
+.good-post-ctx-other-comment-name{
+    margin-left: 4px;
+    font-size: 16px;
+}
+.good-post-ctx-other-comment-position{
+	margin: 5px;
+	background-color: #28b71a;
+	padding: 0 5px 0 5px;
+	border-radius: 5px;
+	color: white;
+}
+.good-post-ctx-other-comment-comment{
+	font: 14px "微软雅黑";
+	padding: 0 30px 0 30px;
+}
 .good-post-ctx-person-remark{
 	font-size: 16px;
 	padding-top: 20px;
