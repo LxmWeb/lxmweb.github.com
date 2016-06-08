@@ -123,6 +123,7 @@ function page3appear(){
 	    $('.page2').css('color','#000');
 	    $('.thirdPage').show();
 	    $('.type').show();
+	    $('.patientList2_unaccepted').hide();
 	    $('.page3').css('color','#1E90FF');
 	    $('.forthPage').hide();
 	    $('.page4').css('color','#000');
